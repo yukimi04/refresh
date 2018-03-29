@@ -391,8 +391,8 @@
 				"motion3": "",
 				"motion4": "",
 				"motion5": "",
-				"bg_image": 
-				"message": "…저희 대학에서도 시험은 이미 끝났어요. \n……그래서 오늘은 시험내용을 \n복습하고 있었어요.",
+				"bg_image": "",
+				"message": "…저희 대학에서도 시험은 이미 \n끝났어요. ……그래서 오늘은 시험내용을 \n복습하고 있었어요.",
 				//"…私たちの学校でも、試験は終了済み\nです。……なので今日は試験内容を\n振り返っていました。",
 				"message_window_type": "",
 				"message_arrow_1": "",
@@ -1333,12 +1333,10 @@
 			image.src = refreshRoom.bg_list[refreshRoom.detail[0].bg_image];
 			//console.log(refreshRoom);
 		})();
-
 		function playText() {
 			if (window.refreshRoom == void 0) return;
 			refreshRoom.dialogue.comment_deferred.resolve();
 		}
-
 		function motion_callback(index, motion) {
 			var filtered_plate = $('.plate-area[rel=' + index + ']');
 			if (filtered_plate.css('display') == 'none') filtered_plate.show();
