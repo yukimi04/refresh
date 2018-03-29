@@ -1333,12 +1333,10 @@
 			image.src = refreshRoom.bg_list[refreshRoom.detail[0].bg_image];
 			//console.log(refreshRoom);
 		})();
-
 		function playText() {
 			if (window.refreshRoom == void 0) return;
 			refreshRoom.dialogue.comment_deferred.resolve();
 		}
-
 		function motion_callback(index, motion) {
 			var filtered_plate = $('.plate-area[rel=' + index + ']');
 			if (filtered_plate.css('display') == 'none') filtered_plate.show();
