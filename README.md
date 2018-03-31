@@ -5,6 +5,8 @@
  - [걸즈 파워의 걸즈 토크](https://l4disk.github.io/refresh_room/detail/3/)(미)
  - [브리앙뜨 느와르의 권유](https://l4disk.github.io/refresh_room/detail/4/)(미)
  - [다같이 공부하자♪](https://l4disk.github.io/refresh_room/detail/5/)(미)
+ - [섹시걸즈의 걸즈토크★](https://l4disk.github.io/refresh_room/detail/6/)(미)
+ - [와의 마음 하고로모코마치 옛이야기](https://l4disk.github.io/refresh_room/detail/7/)(미)
  - [수험에 얽힌 에세트라](https://l4disk.github.io/refresh_room/detail/25/)
 
 ## 아이돌 번호 (큐트)
