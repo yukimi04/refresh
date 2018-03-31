@@ -1,6 +1,6 @@
 ## 리프레시룸 일람
 
- - [뉴 제네레이션즈의 오프 타임](https://l4disk.github.io/refresh_room/detail/1/)
+ - [뉴 제네레이션즈의 오프 타임](refresh_room/detail/1/)
  - [프릴드 스퀘어 대작전!](https://l4disk.github.io/refresh_room/detail/2/)
  - [걸즈 파워의 걸즈 토크](https://l4disk.github.io/refresh_room/detail/3/)(미)
  - [브리앙뜨 느와르의 권유](https://l4disk.github.io/refresh_room/detail/4/)(미)
