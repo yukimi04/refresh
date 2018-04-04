@@ -7,7 +7,7 @@
  - [다같이 공부하자♪](https://l4disk.github.io/refresh_room/detail/5/)(미)
  - [섹시걸즈의 걸즈토크★](https://l4disk.github.io/refresh_room/detail/6/)(미)
  - [와의 마음 하고로모코마치 옛이야기](https://l4disk.github.io/refresh_room/detail/7/)(미)
- - [멜로옐로의 ○○수업?](https://l4disk.github.io/refresh_room/detail/16/)(미)
+ - [멜로옐로의 ○○수업?](https://l4disk.github.io/refresh_room/detail/16/)
  - [수험에 얽힌 에세트라](https://l4disk.github.io/refresh_room/detail/25/)
 
 ## 아이돌 번호 (큐트)
@@ -157,7 +157,7 @@
 |혼다 미오|134|1007|10007|1_20007|
 |오오츠키 유이|146|1009|10009|1_20009|
 |키타미 유즈|149|1057|19057|1_20057|
-|에토우 미사키|155|1127|10127|1_20127|
+|에토 미사키|155|1127|10127|1_20127|
 |죠가사키 미카|167|1058|10058|1_20058|
 |토토키 아이리|172||||
 |이치하라 니나|183|1029|10029|2_20028|
