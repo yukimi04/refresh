@@ -3,7 +3,7 @@
 |--|--|--|
 |1|[뉴 제네레이션즈의 오프 타임](https://l4disk.github.io/refresh_room/detail/1/)|완료|
 |2|[프릴드 스퀘어 대작전!](https://l4disk.github.io/refresh_room/detail/2/)|완료|
-|3|[걸즈 파워의 걸즈 토크](https://l4disk.github.io/refresh_room/detail/3/)|미번역|
+|3|[걸즈 파워의 걸즈 토크](https://l4disk.github.io/refresh_room/detail/3/)|완료|
 |4|[브리앙뜨 느와르의 권유](https://l4disk.github.io/refresh_room/detail/4/)|미번역|
 |5|[다같이 공부하자♪](https://l4disk.github.io/refresh_room/detail/5/)|미번역|
 |6|[섹시 걸즈의 걸즈토크★](https://l4disk.github.io/refresh_room/detail/6/)|미번역|
