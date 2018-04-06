@@ -75,126 +75,149 @@
 			<img src="./12008305/image_sp/ui/refresh_room/top/top_refreshroom-{{img}}.png" style="width:320px;height:120px" class='m-Head_img'>
 		</header>
 	</div>
-		<!--검색기
-		<section>
-			<div class="selectArea type_02">
-				<div class="yellow m-Btm8" style="line-height:100%">
-					검색한 아이돌이 등장한 이야기를 표시합니다.
-				</div>
-				<form class="form_detail_search" method="post" action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http/://125.6.169.35/idolmaster/refresh_room/index?l_frm&=Refresh_room_1&rnd&=443666543'>
-					<div class="layout_area t-Lft">
-						<div class="layout_l">
-							<div class="blue">아이돌 이름</div>
-							<div class="area-btn-common _base-width">
-								<input type="text" placeholder="※현재 지원하지 않습니다." value='' name="name" class="search_text_1_5 name_line">
-								<label class='btn_decision_sub_line_3' onclick="">
-<input type='submit' class="btn-value" value="검색">
-</label>
-							</div>
+	<section>
+		<div class="selectArea type_02">
+			<div class="yellow m-Btm8" style="line-height:100%">
+				검색한 아이돌이 등장한 이야기를 표시합니다.
+			</div>
+			<form class="form_detail_search" method="post">
+				<div class="layout_area t-Lft">
+					<div class="layout_l">
+						<div class="blue">아이돌 이름</div>
+						<div class="area-btn-common _base-width">
+							<input ng-model="q" name="name" class="search_text_1_5 name_line" placeholder="아이돌 이름을 한자·히라가나·가타카나·한글로 검색할 수 있습니다">
+							<label class='btn_decision_sub_line_3' onclick="">
+							<input type='submit' class="btn-value" value="검색">
+							</label>
 						</div>
 					</div>
-					<input type="hidden" name="is_search" value="1">
-					<style type="text/css">
-						input::-webkit-input-placeholder {
-							font-size: 10px;
-							text-indent: -1px;
-						}
-					</style>
-				</form>
-			</div>
-		</section>
-		-->
-		<section id="refresh_link_list">
-			<a class="refresh_link jsOnDesignBtn" href='./detail/28/'>
+				</div>
+				<input type="hidden" name="is_search" value="1">
+				<style type="text/css">
+					input::-webkit-input-placeholder {
+						font-size: 10px;
+						text-indent: -1px;
+					}
+				</style>
+			</form>
+		</div>
+	</section>
+	<ul>
+		<li ng-repeat="item in data | filter:q | startFrom:(currentPage-1)*pageSize | limitTo:pageSize">
+			<section id="refresh_link_list">
+				<a class="refresh_link jsOnDesignBtn" href='./detail/{{item.id}}/'>
+						<img src='./12008305/image_sp/ui/refresh_room/banner/{{item.id}}.png' class="refresh_link_img">
+						<div class="refresh_link_value"><span ng-repeat="line in item.name">{{line}}<br></div>
+					</a>
+			</section>
+		</li>
+	</ul>
+	<section id="refresh_link_list">
+		<a class="refresh_link jsOnDesignBtn" href='./detail/28/'>
 				<img src='./12008305/image_sp/ui/refresh_room/banner/28.png' class="refresh_link_img">
 				<div class="refresh_link_value">想い想われ、<br>贈り合い…♪</div>
 			</a>
-		</section>
-		<section id="refresh_link_list">
-			<a class="refresh_link jsOnDesignBtn" href='./detail/26/'>
+	</section>
+	<section id="refresh_link_list">
+		<a class="refresh_link jsOnDesignBtn" href='./detail/26/'>
 				<img src='./12008305/image_sp/ui/refresh_room/banner/26.png' class="refresh_link_img">
 				<div class="refresh_link_value">虹色ドリーマー、<br>好きを語る。の巻☆</div>
 			</a>
-		</section>
-		<section id="refresh_link_list">
-			<a class="refresh_link jsOnDesignBtn" href='./detail/25/'>
+	</section>
+	<section id="refresh_link_list">
+		<a class="refresh_link jsOnDesignBtn" href='./detail/25/'>
 				<img src='./12008305/image_sp/ui/refresh_room/banner/25.png' class="refresh_link_img">
 				<div class="refresh_link_value">수험에 얽힌 에세트라♪</div>
 			</a>
-		</section>
-		<section id="refresh_link_list">
-			<a class="refresh_link jsOnDesignBtn" href='./detail/16/'>
+	</section>
+	<section id="refresh_link_list">
+		<a class="refresh_link jsOnDesignBtn" href='./detail/16/'>
 				<img src='./12008305/image_sp/ui/refresh_room/banner/16.png' class="refresh_link_img">
 				<div class="refresh_link_value">멜로 옐로의<br>○○수업?</div>
 			</a>
-		</section>
-		<section id="refresh_link_list">
-			<a class="refresh_link jsOnDesignBtn" href='./detail/7/'>
+	</section>
+	<section id="refresh_link_list">
+		<a class="refresh_link jsOnDesignBtn" href='./detail/7/'>
 				<img src='./12008305/image_sp/ui/refresh_room/banner/7.png' class="refresh_link_img">
 				<div class="refresh_link_value">和の心・<br>羽衣小町昔話</div>
 			</a>
-		</section>
-		<section id="refresh_link_list">
-			<a class="refresh_link jsOnDesignBtn" href='./detail/6/'>
+	</section>
+	<section id="refresh_link_list">
+		<a class="refresh_link jsOnDesignBtn" href='./detail/6/'>
 				<img src='./12008305/image_sp/ui/refresh_room/banner/6.png' class="refresh_link_img">
 				<div class="refresh_link_value">セクシーギャルズの<br>ギャルトーク★</div>
 			</a>
-		</section>
-		<section id="refresh_link_list">
-			<a class="refresh_link jsOnDesignBtn" href='./detail/5/'>
-				<img src='./12008305/image_sp/ui/refresh_room/banner/5.png' class="refresh_link_img">
-				<div class="refresh_link_value">みんなでお勉強しよーっ♪</div>
-			</a>
-		</section>
-		<section id="refresh_link_list">
-			<a class="refresh_link jsOnDesignBtn" href='./detail/4/'>
-				<img src='./12008305/image_sp/ui/refresh_room/banner/4.png' class="refresh_link_img">
-				<div class="refresh_link_value">ブリヤントノワールの<br>お誘い</div>
-			</a>
-		</section>
-		<section id="refresh_link_list">
-			<a class="refresh_link jsOnDesignBtn" href='./detail/3/'>
-				<img src='./12008305/image_sp/ui/refresh_room/banner/3.png' class="refresh_link_img">
-				<div class="refresh_link_value">걸즈 파워의<br>걸즈 토크</div>
-			</a>
-		</section>
-		<section id="refresh_link_list">
-			<a class="refresh_link jsOnDesignBtn" href='./detail/2/'>
-				<img src='./12008305/image_sp/ui/refresh_room/banner/2.png' class="refresh_link_img">
-				<div class="refresh_link_value">프릴드 스퀘어 대작전!</div>
-			</a>
-		</section>
-		<section id="refresh_link_list">
-			<a class="refresh_link jsOnDesignBtn" href='./detail/1/'>
-				<img src='./12008305/image_sp/ui/refresh_room/banner/1.png' class="refresh_link_img">
-				<div class="refresh_link_value">뉴 제네레이션즈의<br>오프 타임</div>
-			</a>
-		</section>
-
-
-	<!--페이지 이동
-		<img src="./12008305/image_sp/ui/line_hoshi.jpg" width="320" height="11" class="m-Btm8"><br>
-		<form method="POST" action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http/://125.6.169.35/idolmaster/refresh_room/index/0?l_frm&=Refresh_room_1&rnd&=322602485' style="margin:0">
-			<input type="hidden" name="name" value="">
-			<div class="pager_area" style="height:74px;">
-				<div class="pager_submit_area"><input type="number" name="target_page_num" id="jsPageNumber" pattern="\d*" value="">ページに<label class="btn_normal_line_4 _disabled m-Cnt m-Btm8" id="jsMovePagerLabel" for="jsMovePagerBtn" style="display:inline-block;vertical-align:middle;margin-left:5px;margin-bottom:3px;"><input id="jsMovePagerBtn" type="submit" value="移動" style="width:inherit;height:inherit;line-height:inherit;margin:0;"></label></div>
-				<div
-				  class="pager_panel_area">
-					<div class="btn_pager_first _disabled"></div>
-					<div class="btn_pager_back _disabled"></div><input type="submit" name="next" class="btn_pager_next jsNotDisabled jsOnDesignBtn" value="1"><input type="submit" name="last" class="btn_pager_last jsNotDisabled jsOnDesignBtn" value="1">1 / 4</div>
-	</div>
-	<input type="hidden" name="is_paging" value="1">
-	<script>
-		$('#jsPageNumber').focus(function() {
-			$('#jsMovePagerLabel').removeClass("_disabled");
-		});
-	</script>
+	</section>
+	<img src="./12008305/image_sp/ui/line_hoshi.jpg" width="320" height="11" class="m-Btm8"><br>
+	<form class="pager_area" style="margin:0">
+		<div class="pager_submit_area">
+			<input type="number" name="target_page_num" ng-model="currentPage" id="jsPageNumber" pattern="\d*" value="">페이지로<label class="btn_normal_line_4 m-Cnt m-Btm8" id="jsMovePagerLabel" for="jsMovePagerBtn" style="display:inline-block;vertical-align:middle;margin-left:5px;margin-bottom:3px;">
+				<input id="jsMovePagerBtn" type="submit" value="이동" style="width:inherit;height:inherit;line-height:inherit;margin:0;">
+			</label>
+		</div>
+		<div class="pager_panel_area">
+			<div ng-if="currentPage<=1" class="btn_pager_first _disabled"></div>
+			<div ng-if="currentPage<=1" class="btn_pager_back _disabled"></div>
+			<div ng-if="currentPage>=numberOfPages()" class="btn_pager_next _disabled"></div>
+			<div ng-if="currentPage>=numberOfPages()" class="btn_pager_last _disabled"></div>
+			<input type="submit" name="first" ng-if="currentPage>1" ng-click="currentPage=1" class="btn_pager_first jsNotDisabled jsOnDesignBtn" value="1">
+			<input type="submit" name="back" ng-if="currentPage>1" ng-click="currentPage=currentPage-1" class="btn_pager_back jsNotDisabled jsOnDesignBtn" value="1">
+			<input type="submit" name="next" ng-if="currentPage<numberOfPages()" ng-click="currentPage=currentPage+1" class="btn_pager_next jsNotDisabled jsOnDesignBtn" value="1">
+			<input type="submit" name="last" ng-if="currentPage<numberOfPages()" ng-click="currentPage=numberOfPages()" class="btn_pager_last jsNotDisabled jsOnDesignBtn" value="1">
+			{{currentPage}}/{{numberOfPages()}}
+			<input type="hidden" name="is_paging" value="1">
+		<script>
+			$('#jsPageNumber').focus(function() {
+				$('#jsMovePagerLabel').removeClass("_disabled");
+			});
+		</script>
 	</form>
-	-->
 	<script>
-		var refApp = angular.module('refApp',[]);
-		refApp.controller('refCtrl',function($scope){
+		var refApp = angular.module('refApp', []);
+		refApp.controller('refCtrl', ['$scope', '$filter', function($scope, $filter) {
 			$scope.img = Math.floor(Math.random() * 32) + 1;
+			$scope.currentPage = 1;
+			$scope.pageSize = 10;
+			$scope.data = [{
+				id: 1,
+				name: ["뉴 제네레이션즈의", "오프 타임"],
+				idol: "しまむらうづき_しぶやりん_ほんだみお_シマムラウヅキ_シブヤリン_ホンダミオ_島村卯月_渋谷凛_本田未央_시마무라우즈키_시부야린_혼다미오"
+			}, {
+				id: 2,
+				name: ["프릴드 스퀘어 대작전!"],
+				idol: "ももいあずき_くどうしのぶ_あやせほのか_きたみゆず_モモイアズキ_クドウシノブ_アヤセホノカ_キタミユズ_桃井あずき_工藤忍_綾瀬穂乃香_喜多見柚_모모이아즈키_쿠도시노부_아야세호노카_키타미유즈"
+			}, {
+				id: 3,
+				name: ["걸즈 파워의", "걸즈 토크"],
+				idol: "つきみやみやび_きしべあやか_えとうみさき_ツキミヤミヤビ_キシベアヤカ_エトウミサキ_月宮雅_岸部彩華_衛藤美紗希_츠키미야미야비_키시베아야카_에토미사키"
+			}, {
+				id: 4,
+				name: ["브리앙뜨 느와르의", "권유"],
+				idol: "くろかわちあき_みずのみどり_クロカワチアキ_ミズノミドリ_黒川千秋_水野翠_쿠로카와치아키_미즈노미도리"
+			}, {
+				id: 5,
+				name: ["다같이 공부하자♪"],
+				idol: "よこやまちか_ささきちえ_いちはらにな_めありー・こくらん_ヨコヤマチカ_ササキチエ_イチハラニナ_メアリー・コクラン_横山千佳_佐々木千枝_市原仁奈_メアリー・コクラン_요코야마치카_사사키치에_이치하라니나_메어리코크란"
+			}];
+			$scope.q = '';
+
+			$scope.getData = function() {
+				// needed for the pagination calc
+				// https://docs.angularjs.org/api/ng/filter/filter
+				return $filter('filter')($scope.data, $scope.q)
+			}
+
+			$scope.numberOfPages = function() {
+				return Math.ceil($scope.getData().length / $scope.pageSize);
+			}
+		}]);
+		//We already have a limitTo filter built-in to angular,
+		//let's make a startFrom filter
+		refApp.filter('startFrom', function() {
+			return function(input, start) {
+				start = +start; //parse to int
+				return input.slice(start);
+			}
 		});
 	</script>
 
