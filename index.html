@@ -26,6 +26,7 @@
 			document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
 		}
 	</script>
+	<script src="./12008305/js/angular-1.6.9.min.js"></script>
 	<script src="./12008305/js/jquery-2.2.2.min.js"></script>
 	<script src="./12008305/js/underscore-min.js"></script>
 	<script src="./12008305/js/require.js"></script>
@@ -61,7 +62,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/base.css" />
 </head>
 
-<body id="refresh_room" class="index">
+<body id="refresh_room" class="index" ng-app="refApp" ng-controller="refCtrl">
 	<div id="top" class="page_container jsOnBtn">
 		<nav class="area_menu_header">
 			<div class="area_menu_header_6btn">
@@ -71,7 +72,7 @@
 		<input id="delay" type="hidden" value="0">
 		<link rel="stylesheet" type="text/css" href="./12008305/css/rich/refresh_room.css" media="all">
 		<header class="m-Btm12">
-			<img src="./12008305/image_sp/ui/refresh_room/top/top_refreshroom-7.png" style="width:320px;height:120px" class='m-Head_img'>
+			<img src="./12008305/image_sp/ui/refresh_room/top/top_refreshroom-{{img}}.png" style="width:320px;height:120px" class='m-Head_img'>
 		</header>
 	</div>
 		<!--검색기
@@ -178,6 +179,12 @@
 	</script>
 	</form>
 	-->
+	<script>
+		var refApp = angular.module('refApp',[]);
+		refApp.controller('refCtrl',function($scope){
+			$scope.img = Math.floor(Math.random() * 32) + 1;
+		});
+	</script>
 
 	<footer>
 		<img src="./12008305/image_sp/ui/line_hoshi.jpg" width="320" height="11" class="m-Btm8">
