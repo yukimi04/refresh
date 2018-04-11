@@ -9,6 +9,7 @@
 		selected = vars.selected,
 		start = vars.start,
 		storage = vars.storage,
+		impotant_start = vars.impotant_start,
 		$contents = $(vars.contents),
 		$tabs = false,
 		methods ={};
@@ -31,6 +32,7 @@
 			//loadされたタブを表示
 			show : function(){
 				if ( ($contents.length-1) < start ) start = 0 ;
+				if (impotant_start) start = vars.start;
 				$tabs.removeClass(selected).eq(start).addClass(selected);
 				$contents.hide().eq(vars.tabs_name ? $tabs.eq(start).attr('name').replace(vars.tabs_name,'') : start).show();
 			},
@@ -68,7 +70,8 @@
 		contents : ".contents",
 		selected : "selected",
 		storage : false,
-		start : 0
+		start : 0,
+		impotant_start : null,
 	}
 
 	$.fn.tab_switch = function(options){
