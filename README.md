@@ -10,6 +10,7 @@
 |5|[다같이 공부하자♪](https://l4disk.github.io/refresh_room/detail/5/)|완료|
 |6|[섹시 갸루즈의 갸루 토크★](https://l4disk.github.io/refresh_room/detail/6/)|완료|
 |7|[와의 마음·하고로모코마치 옛이야기](https://l4disk.github.io/refresh_room/detail/7/)|완료|
+|8|[강하다구! 인디비쥬얼즈!](https://l4disk.github.io/refresh_room/detail/8/)|미번역|
 |16|[멜로 옐로의 ○○수업?](https://l4disk.github.io/refresh_room/detail/16/)|완료|
 |25|[수험에 얽힌 에세트라](https://l4disk.github.io/refresh_room/detail/25/)|완료|
 |26|[무지개색 드리머, 취향을 말하다, 편☆](https://l4disk.github.io/refresh_room/detail/26/)|완료|
