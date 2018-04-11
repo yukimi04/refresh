@@ -11,10 +11,11 @@
 |6|[섹시 갸루즈의 갸루 토크★](https://l4disk.github.io/refresh_room/detail/6/)|완료|
 |7|[와의 마음·하고로모코마치 옛이야기](https://l4disk.github.io/refresh_room/detail/7/)|완료|
 |8|[강하다구! 인디비쥬얼즈!](https://l4disk.github.io/refresh_room/detail/8/)|미번역|
+|9|[즐겁고♪ 사이좋은 뉴 웨이브!](https://l4disk.github.io/refresh_room/detail/9/)|미번역|
 |16|[멜로 옐로의 ○○수업?](https://l4disk.github.io/refresh_room/detail/16/)|완료|
 |25|[수험에 얽힌 에세트라](https://l4disk.github.io/refresh_room/detail/25/)|완료|
 |26|[무지개색 드리머, 취향을 말하다, 편☆](https://l4disk.github.io/refresh_room/detail/26/)|완료|
-|28|[마음에 마음을 담아서, 선물하는 모임…♪](https://l4disk.github.io/refresh_room/detail/28/)|완료|
+|28|[마음에 마음을 더해서, 전하기…♪](https://l4disk.github.io/refresh_room/detail/28/)|완료|
 
 ## 아이돌 번호 (큐트)
 |아이돌|이름 패널|얼굴|헤어|코스튬|
