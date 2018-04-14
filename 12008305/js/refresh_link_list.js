@@ -87,6 +87,10 @@ refApp.controller('refCtrl', ['$scope', '$filter', function($scope, $filter) {
 	$scope.numberOfPages = function() {
 		return Math.ceil($scope.getData().length / $scope.pageSize);
 	}
+
+	$scope.setPage = function(n) {
+		$scope.currentPage = n;
+	}
 }]);
 //We already have a limitTo filter built-in to angular,
 //let's make a startFrom filter
