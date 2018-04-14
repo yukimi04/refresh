@@ -2,7 +2,7 @@ var refApp = angular.module('refApp', []);
 refApp.controller('refCtrl', ['$scope', '$filter', function($scope, $filter) {
 	$scope.img = Math.floor(Math.random() * 32) + 1;
 	$scope.currentPage = 1;
-	$scope.pageSize = 20;
+	$scope.pageSize = 10;
 	$scope.data = [{
 		id: 1,
 		name: ["뉴 제네레이션즈의", "오프 타임"],
@@ -51,6 +51,10 @@ refApp.controller('refCtrl', ['$scope', '$filter', function($scope, $filter) {
 		id: 16,
 		name: ["멜로 옐로의", "○○수업?"],
 		idol: "みずもとゆかり_しいなのりこ_なかのゆか_ミズモトユカリ_シイナノリコ_ナカノユカ_水本ゆかり_椎名法子_中野有香_미즈모토유카리_시이나노리코_나카노유카"
+	}, {
+		id: 19,
+		name: ["쉘·위·댄스♪", "with 솔·카마르"],
+		idol: "なたーりあ_らいら_ナターリア_ライラ_ナターリア_ライラ_나탈리아_라이라"
 	}, {
 		id: 25,
 		name: ["수험에 얽힌", "에세트라♪"],
