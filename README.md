@@ -13,7 +13,7 @@
 |8|[강하다구! 인디비쥬얼즈!](https://l4disk.github.io/refresh_room/detail/8/)|완료|
 |9|[즐겁고♪ 사이좋은 뉴 웨이브!](https://l4disk.github.io/refresh_room/detail/9/)|미번역|
 |10|[핫 아트 점핑의 전력만끽 플랜](https://l4disk.github.io/refresh_room/detail/10/)|완료|
-|11|[플람 루쥬의 최강 스페셜 오더](https://l4disk.github.io/refresh_room/detail/11)|미번역|
+|11|[플람 루쥬의 최강 스페셜 오더](https://l4disk.github.io/refresh_room/detail/11)|완료|
 |16|[멜로 옐로의 ○○수업?](https://l4disk.github.io/refresh_room/detail/16/)|완료|
 |18|[쉘·위·댄스♪ with 솔·카마르](https://l4disk.github.io/refresh_room/detail/18/)|완료|
 |23|[런치타임·V.V.](https://l4disk.github.io/refresh_room/detail/23/)|완료|
