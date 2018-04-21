@@ -14,12 +14,14 @@
 |9|[즐겁고♪ 사이좋은 뉴 웨이브!](https://l4disk.github.io/refresh_room/detail/9/)|미번역|
 |10|[핫 아트 점핑의 전력만끽 플랜](https://l4disk.github.io/refresh_room/detail/10/)|완료|
 |11|[플람 루쥬의 최강 스페셜 오더](https://l4disk.github.io/refresh_room/detail/11)|완료|
+|12|[전국☆밥☆난무](https://l4disk.github.io/refresh_room/detail/12/)|미번역|
 |16|[멜로 옐로의 ○○수업?](https://l4disk.github.io/refresh_room/detail/16/)|완료|
 |18|[쉘·위·댄스♪ with 솔·카마르](https://l4disk.github.io/refresh_room/detail/18/)|완료|
 |23|[런치타임·V.V.](https://l4disk.github.io/refresh_room/detail/23/)|완료|
 |25|[수험에 얽힌 에세트라](https://l4disk.github.io/refresh_room/detail/25/)|완료|
 |26|[무지개색 드리머, 취향을 말하다, 편☆](https://l4disk.github.io/refresh_room/detail/26/)|완료|
 |28|[마음에 마음을 더해서, 전하기…♪](https://l4disk.github.io/refresh_room/detail/28/)|완료|
+|33|[해피 에이프릴 풀☆](https://l4disk.github.io/refresh_room/detail/33/)|미번역|
 |36|[인디고 벨의 특훈! 빨리 말하기!](https://l4disk.github.io/refresh_room/detail/36/)|완료|
 
 ## 아이돌 번호 (큐트)
