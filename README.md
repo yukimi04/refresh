@@ -16,18 +16,18 @@
 |11|[플람 루쥬의 최강 스페셜 오더](https://l4disk.github.io/refresh_room/detail/11)|완료|
 |12|[전국☆밥☆난무](https://l4disk.github.io/refresh_room/detail/12/)|미번역|
 |13|[로맨틱투어즈의 두근두근 정월계획](https://l4disk.github.io/refresh_room/detail/13/)|미번역|
-|14|[기운내서 가자! 히트업☆치어스](https://l4disk.github.io/refresh_room/detail/14/)|미번역|
+|14|[기운내서 가자! 히트업☆치어스](https://l4disk.github.io/refresh_room/detail/14/)|완료|
 |15|[나른한 초대…♪](https://l4disk.github.io/refresh_room/detail/15/)|미번역|
 |16|[멜로 옐로의 ○○수업?](https://l4disk.github.io/refresh_room/detail/16/)|완료|
 |17|[카나미우 챌린지☆](https://l4disk.github.io/refresh_room/detail/17/)|미번역|
 |18|[쉘·위·댄스♪ with 솔·카마르](https://l4disk.github.io/refresh_room/detail/18/)|완료|
 |19|[끝말잇기 게임♪](https://l4disk.github.io/refresh_room/detail/19/)|미번역|
 |23|[런치타임·V.V.](https://l4disk.github.io/refresh_room/detail/23/)|완료|
-|23|[GIRLS BE NEXT 초콜릿♪](https://l4disk.github.io/refresh_room/detail/24/)|미번역|
+|23|[GIRLS BE NEXT 초콜릿♪](https://l4disk.github.io/refresh_room/detail/24/)|완료|
 |25|[수험에 얽힌 에세트라](https://l4disk.github.io/refresh_room/detail/25/)|완료|
 |26|[무지개색 드리머, 취향을 말하다, 편☆](https://l4disk.github.io/refresh_room/detail/26/)|완료|
 |28|[마음에 마음을 더해서, 전하기…♪](https://l4disk.github.io/refresh_room/detail/28/)|완료|
-|33|[해피 에이프릴 풀☆](https://l4disk.github.io/refresh_room/detail/33/)|미번역|
+|33|[해피 에이프릴 풀☆](https://l4disk.github.io/refresh_room/detail/33/)|완료|
 |36|[인디고 벨의 특훈! 빨리 말하기!](https://l4disk.github.io/refresh_room/detail/36/)|완료|
 
 ## 아이돌 번호 (큐트)
