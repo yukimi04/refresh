@@ -15,11 +15,11 @@
 |10|[핫 아트 점핑의 전력만끽 플랜](https://l4disk.github.io/refresh_room/detail/10/)|완료|
 |11|[플람 루쥬의 최강 스페셜 오더](https://l4disk.github.io/refresh_room/detail/11)|완료|
 |12|[전국☆밥☆난무](https://l4disk.github.io/refresh_room/detail/12/)|미번역|
-|13|[로맨틱투어즈의 두근두근 정월계획](https://l4disk.github.io/refresh_room/detail/13/)|미번역|
+|13|[로맨틱투어즈의 두근두근 정월계획](https://l4disk.github.io/refresh_room/detail/13/)|완료|
 |14|[기운내서 가자! 히트업☆치어스](https://l4disk.github.io/refresh_room/detail/14/)|완료|
-|15|[나른한 초대…♪](https://l4disk.github.io/refresh_room/detail/15/)|미번역|
+|15|[나른한 초대…♪](https://l4disk.github.io/refresh_room/detail/15/)|완료|
 |16|[멜로 옐로의 ○○수업?](https://l4disk.github.io/refresh_room/detail/16/)|완료|
-|17|[카나미우 챌린지☆](https://l4disk.github.io/refresh_room/detail/17/)|미번역|
+|17|[카나미우 챌린지☆](https://l4disk.github.io/refresh_room/detail/17/)|완료|
 |18|[쉘·위·댄스♪ with 솔·카마르](https://l4disk.github.io/refresh_room/detail/18/)|완료|
 |19|[끝말잇기 게임♪](https://l4disk.github.io/refresh_room/detail/19/)|미번역|
 |23|[런치타임·V.V.](https://l4disk.github.io/refresh_room/detail/23/)|완료|
