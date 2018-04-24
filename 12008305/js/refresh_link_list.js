@@ -1,6 +1,6 @@
 var refApp = angular.module('refApp', []);
 refApp.controller('refCtrl', ['$scope', '$filter', function($scope, $filter) {
-	$scope.img = Math.floor(Math.random() * 32) + 1;
+	$scope.img = Math.floor(Math.random() * 37) + 1;
 	$scope.currentPage = 1;
 	$scope.pageSize = 10;
 	$scope.data = [{
