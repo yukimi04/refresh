@@ -11,10 +11,10 @@
 |6|[섹시 갸루즈의 갸루 토크★](https://l4disk.github.io/refresh_room/detail/6/)|완료|
 |7|[와의 마음·하고로모코마치 옛이야기](https://l4disk.github.io/refresh_room/detail/7/)|완료|
 |8|[강하다구! 인디비쥬얼즈!](https://l4disk.github.io/refresh_room/detail/8/)|완료|
-|9|[즐겁고♪ 사이좋은 뉴 웨이브!](https://l4disk.github.io/refresh_room/detail/9/)|미번역|
+|9|[즐겁고♪ 사이좋은 뉴 웨이브!](https://l4disk.github.io/refresh_room/detail/9/)|완료|
 |10|[핫 아트 점핑의 전력만끽 플랜](https://l4disk.github.io/refresh_room/detail/10/)|완료|
 |11|[플람 루쥬의 최강 스페셜 오더](https://l4disk.github.io/refresh_room/detail/11)|완료|
-|12|[전국☆밥☆난무](https://l4disk.github.io/refresh_room/detail/12/)|미번역|
+|12|[전국☆밥☆난무](https://l4disk.github.io/refresh_room/detail/12/)|완료|
 |13|[로맨틱투어즈의 두근두근 정월계획](https://l4disk.github.io/refresh_room/detail/13/)|완료|
 |14|[기운내서 가자! 히트업☆치어스](https://l4disk.github.io/refresh_room/detail/14/)|완료|
 |15|[나른한 초대…♪](https://l4disk.github.io/refresh_room/detail/15/)|완료|
