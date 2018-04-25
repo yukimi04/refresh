@@ -21,7 +21,7 @@
 |16|[멜로 옐로의 ○○수업?](https://l4disk.github.io/refresh_room/detail/16/)|완료|
 |17|[카나미우 챌린지☆](https://l4disk.github.io/refresh_room/detail/17/)|완료|
 |18|[쉘·위·댄스♪ with 솔·카마르](https://l4disk.github.io/refresh_room/detail/18/)|완료|
-|19|[끝말잇기 게임♪](https://l4disk.github.io/refresh_room/detail/19/)|미번역|
+|19|[끝말잇기 게임♪](https://l4disk.github.io/refresh_room/detail/19/)|완료|
 |23|[런치타임·V.V.](https://l4disk.github.io/refresh_room/detail/23/)|완료|
 |23|[GIRLS BE NEXT 초콜릿♪](https://l4disk.github.io/refresh_room/detail/24/)|완료|
 |25|[수험에 얽힌 에세트라](https://l4disk.github.io/refresh_room/detail/25/)|완료|
