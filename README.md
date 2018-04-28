@@ -22,6 +22,7 @@
 |17|[카나미우 챌린지☆](https://l4disk.github.io/refresh_room/detail/17/)|완료|
 |18|[쉘·위·댄스♪ with 솔·카마르](https://l4disk.github.io/refresh_room/detail/18/)|완료|
 |19|[끝말잇기 게임♪](https://l4disk.github.io/refresh_room/detail/19/)|완료|
+|20|[수수께끼 해결? 추리소설 추천](https://l4disk.github.io/refresh_room/detail/20/)|미번역|
 |23|[런치타임·V.V.](https://l4disk.github.io/refresh_room/detail/23/)|완료|
 |23|[GIRLS BE NEXT 초콜릿♪](https://l4disk.github.io/refresh_room/detail/24/)|완료|
 |25|[수험에 얽힌 에세트라](https://l4disk.github.io/refresh_room/detail/25/)|완료|
@@ -79,7 +80,7 @@
 |쿠사카베 와카바|48||||
 |사카키바라 사토미|49||||
 |코시미즈 사치코|50||||
-|안자이 미야코|51||||
+|안자이 미야코|51|1137|10137|1_20137|
 |아사노 후카|52||||
 |오오니시 유리코|53||||
 |아베 나나|54|1022|10022|1_20022|
