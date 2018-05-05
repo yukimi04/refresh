@@ -100,7 +100,7 @@
 
 	<ul>
 		<script src="./12008305/js/refresh_link_list.js"></script>
-		<li ng-repeat="item in data | filter:q | startFrom:(currentPage-1)*pageSize | limitTo:pageSize">
+		<li ng-repeat="item in data | filter:q | orderBy : '-id' | startFrom:(currentPage-1)*pageSize | limitTo:pageSize">
 			<section id="refresh_link_list">
 				<a class="refresh_link jsOnDesignBtn" href='./detail/{{item.id}}/'>
 					<img src='./12008305/image_sp/ui/refresh_room/banner/{{item.id}}.png' class="refresh_link_img">
