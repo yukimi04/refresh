@@ -1,0 +1,1338 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="-1">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobage: footer-color" content="none">
+	<link rel="stylesheet" href='../../12008305/css/game/pex.css' media="all">
+	<script src='../../12008305/js/jquery-2.2.2.min.js'></script>
+	<script src='../../12008305/js/ilibrary.js'></script>
+	<script src='../../12008305/js/pex-petit-1.2.0.js'></script>
+	<script src='../../12008305/js/pex_common.js'></script>
+	<script src='../../12008305/js/min/petit_manager.min.js'></script>
+	<script src='../../12008305/js/min/refresh_room.min.js'></script>
+	<title>아이돌마스터 신데렐라 걸즈</title>
+	<link rel="stylesheet" type="text/css" href="../../12008305/css/rich/refresh_room.css" media="all">
+	<script type='text/javascript'>
+		var se_flg = 0,
+			bgm_flg = 0,
+			chrome_app_flg = 0,
+			chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+	</script>
+	<script type='text/javascript' src='../../12008305/js/app_sound.js'></script>
+	<link rel="stylesheet" type="text/css" href="../../css/base.css?20171116" />
+</head>
+
+<body>
+	<article>
+		<section id="pageContainer" class="m-Btm0">
+			<div id="bg_space" class="large-size"></div>
+			<div id="jsEyeCatch">
+				<div style="margin-top:120px"><img src='../../12008305/image_sp/petit_cg/ui/sprite/loading/working_1.gif' width="195" height="139"></div>
+				<div style="margin-top:-80px"><img src='../../12008305/image_sp/petit_cg/ui/sprite/loading/loading.gif' width="102" height="102"></div>
+			</div>
+			<div class="effect-container">
+				<div id="animation-container"></div>
+				<div id="dialogue" class="animation"></div>
+				<div class="story" style="text-align:left;">
+					<div class="comment-container">
+						<span></span><br>
+						<span></span><br>
+						<span></span><br>
+					</div>
+					<a href="#" class="story_btn" style="display:none;"></a>
+				</div>
+			</div>
+			<div id="name-plate" rel="4">
+				<div class="plate-area" rel="1">
+					<img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/136.png'>
+				</div>
+				<div class="plate-area" rel="2">
+					<img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/99.png'>
+				</div>
+				<div class="plate-area" rel="3">
+					<img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/16.png'>
+				</div>
+				<div class="plate-area" rel="4">
+					<img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/174.png'>
+				</div>
+			</div>
+			<a id="next" class="next" href="#"></a>
+		</section>
+	</article>
+	<script type="text/javascript">
+		(function() {
+			var refreshRoom = window.refreshRoom || {};
+			var ua = navigator.userAgent;
+			var in_chome = false;
+			try {
+				in_chrome = (chrome in window);
+			} catch (e) {
+				in_chrome = false;
+			}
+			refreshRoom.is_pc = in_chrome || (window.chrome ? true : false) && (window.chrome.webstore) || ua.indexOf('ChromeApp') > -1 || ua.indexOf('AAWebview') > -1;
+			refreshRoom.old_os = ua.match(/(OS [3-7]|Android [2-4])/);
+			refreshRoom.is_multiply = false;
+			refreshRoom.returnUrl = '../..';
+			refreshRoom.dialogueSwf = '../../petit_refresh_room_balloon_swf';
+			refreshRoom.data = {
+				"id": "13",
+				"refresh_room_id": "13",
+				"start_time": "2018\/01\/01 15:00:00",
+				"refresh_room_name": "ロマンティックツアーズの<BR>わくわくお正月計画",
+				"idol_set_id_1": "38",
+				"idol_accessory_set_id_1": "7",
+				"idol_set_id_2": "39",
+				"idol_accessory_set_id_2": "7",
+				"idol_set_id_3": "40",
+				"idol_accessory_set_id_3": "7",
+				"idol_set_id_4": "41",
+				"idol_accessory_set_id_4": "8",
+				"idol_set_id_5": "",
+				"idol_accessory_set_id_5": "",
+				"idol_name_1": "並木芽衣子",
+				"idol_kana_1": "なみきめいこ",
+				"name_plate_id_1": "136",
+				"idol_name_2": "伊集院惠",
+				"idol_kana_2": "いじゅういんめぐみ",
+				"name_plate_id_2": "99",
+				"idol_name_3": "江上椿",
+				"idol_kana_3": "えがみつばき",
+				"name_plate_id_3": "16",
+				"idol_name_4": "相馬夏美",
+				"idol_kana_4": "そうまなつみ",
+				"name_plate_id_4": "174",
+				"idol_name_5": "",
+				"idol_kana_5": "",
+				"idol_avatar": {
+					"1": {
+						"attribute": "3",
+						"body_type": "1",
+						"breast_size": "2",
+						"short_name": "芽衣子",
+						"image_url_list": {
+							"expression_1116": "../../12008305/js/petit_cg/expression/1116.js",
+							"hair_10116": "../../12008305/js/petit_cg/hair/10116.js",
+							"costume_1_20116": "../../12008305/js/petit_cg/costume/1/20116.js"
+						},
+						"sub_type_list": {
+							"head": null,
+							"hand": null,
+							"leg": null
+						},
+						"take_sub_type": {
+							"head": 0,
+							"hand": 0,
+							"leg": 0
+						},
+						"petit_csv_info_list": {
+							"costume_1_20116": {
+								"image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F20116",
+								"accessory_name": "フラワーチュニック・芽衣子",
+								"explanation": "芽衣子のカジュアルテイストな私服です。<br>お花プリントが元気をくれるよっ!",
+								"type_id": "2"
+							}
+						},
+						"petit_csv_sub_type_info_list": []
+					},
+					"2": {
+						"attribute": "2",
+						"body_type": "1",
+						"breast_size": "2",
+						"short_name": "惠",
+						"image_url_list": {
+							"expression_1145": "../../12008305/js/petit_cg/expression/1145.js",
+							"hair_10145": "../../12008305/js/petit_cg/hair/10145.js",
+							"costume_1_20145": "../../12008305/js/petit_cg/costume/1/20145.js"
+						},
+						"sub_type_list": {
+							"head": null,
+							"hand": null,
+							"leg": null
+						},
+						"take_sub_type": {
+							"head": 0,
+							"hand": 0,
+							"leg": 0
+						},
+						"petit_csv_info_list": {
+							"costume_1_20145": {
+								"image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F20145",
+								"accessory_name": "パンツルック・惠",
+								"explanation": "デザイン性の高いシャツにパンツスタイルの惠の私服です。<br>空を思わせる爽やかカラーのコーデ。",
+								"type_id": "2"
+							}
+						},
+						"petit_csv_sub_type_info_list": []
+					},
+					"3": {
+						"attribute": "1",
+						"body_type": "1",
+						"breast_size": "2",
+						"short_name": "椿",
+						"image_url_list": {
+							"expression_1146": "../../12008305/js/petit_cg/expression/1146.js",
+							"hair_10146": "../../12008305/js/petit_cg/hair/10146.js",
+							"costume_1_20146": "../../12008305/js/petit_cg/costume/1/20146.js"
+						},
+						"sub_type_list": {
+							"head": null,
+							"hand": null,
+							"leg": null
+						},
+						"take_sub_type": {
+							"head": 0,
+							"hand": 0,
+							"leg": 0
+						},
+						"petit_csv_info_list": {
+							"costume_1_20146": {
+								"image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F20146",
+								"accessory_name": "シンプルワンピ・椿",
+								"explanation": "やさしい色合いの椿の私服です。<br>カーディガンとストールでまとめて♪",
+								"type_id": "2"
+							}
+						},
+						"petit_csv_sub_type_info_list": []
+					},
+					"4": {
+						"attribute": "3",
+						"body_type": "1",
+						"breast_size": "2",
+						"short_name": "夏美",
+						"image_url_list": {
+							"expression_1147": "../../12008305/js/petit_cg/expression/1147.js",
+							"hair_13222": "../../12008305/js/petit_cg/hair/13222.js",
+							"costume_1_23222": "../../12008305/js/petit_cg/costume/1/23222.js"
+						},
+						"sub_type_list": {
+							"head": null,
+							"hand": null,
+							"leg": null
+						},
+						"take_sub_type": {
+							"head": 0,
+							"hand": 0,
+							"leg": 0
+						},
+						"petit_csv_info_list": {
+							"costume_1_23222": {
+								"image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F23222",
+								"accessory_name": "フライトヴィバシティ",
+								"explanation": "お腹を出したセクシーで快活な印象の衣装です。<br>大空を自由にフライトできそうな気分♪",
+								"type_id": "2"
+							}
+						},
+						"petit_csv_sub_type_info_list": []
+					}
+				}
+			};
+			var default_swf = '../../petit_refresh_room_character_swf';
+			for (var i in refreshRoom.data.idol_avatar) {
+				refreshRoom.data.idol_avatar[i].swf = default_swf;
+			}
+			refreshRoom.detail = [{
+				"id": "1",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "joy",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "out",
+				"motion5": "",
+				"bg_image": "1",
+				"message": "자, 다들 기다렸지!\n전에 말했던 설여행 계획표가\n나왔어♪",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "2",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "smile_left",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "어머, 고마워. 좋은 마음씀씀이네.\n빨리 볼까.",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "1",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "3",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "smile_right",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "다들 얘기했던「해보고 싶은 것」을\n여정에 담아봤어!\n어떨려나~?",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "4",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "smile_left",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "메이코씨 역시...!\n그, 메일로 얘기했을 때에는\n꽤 다양한 의견이 나왔던것 같은데...",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "1",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "5",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "nod",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "잘 정리했네.\n대체 어떤 여행이 되는걸까?",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "1",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "6",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "in_walk",
+				"motion5": "",
+				"bg_image": "",
+				"message": "다 여기에 있다고 치히로씨한테\n들었는데.........아, 있다!\n다들 수고했어~♪",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "1",
+				"message_arrow_5": ""
+			}, {
+				"id": "7",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "smile_right",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "수고했어 나츠미씨.\n그 차림새를 보니, 오늘은 의상미팅이야?",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "1",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "8",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "nod_smile",
+				"motion5": "",
+				"bg_image": "",
+				"message": "어어, 아까 막 끝난참이야.\n갈아입기 전에 들렀어♪\n어때, 어울려?",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "1",
+				"message_arrow_5": ""
+			}, {
+				"id": "9",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "joy",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "네, 정말로!\n한 장 기념으로 찍고싶을정도로요♪",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "1",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "10",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "smile_left",
+				"motion5": "",
+				"bg_image": "",
+				"message": "우후훗! 고마워 츠바키쨩.\n역시 여행에 관련된 일은\n특히 기합이 들어가게 되네♪",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "1",
+				"message_arrow_5": ""
+			}, {
+				"id": "11",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "joy",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "그렇지~♪여행 최고!!\n맞다, 나츠미씨도 봐 봐!!\n설여행의 계획인데...",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "12",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "smile_left",
+				"motion5": "",
+				"bg_image": "",
+				"message": "어머 기뻐라♪\n빨리 보자!\n먼저, 1일 째에는...",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "1",
+				"message_arrow_5": ""
+			}, {
+				"id": "13",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "nod_smile",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "점심 전에 현지에 도착해서... 점심은\n『지역의 맛집을 만끽』이네요.\n우와아~ 기대돼요!",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "1",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "14",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "nod",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "뻔하지만 여행에 있어 지역의 맛집은\n빼놓을 수 없지. 이 멤버라면\n잔뜩 걷게 될거고말야.",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "1",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "15",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "nod_smile",
+				"motion5": "",
+				"bg_image": "",
+				"message": "그렇지~ 여행을 만끽하기 위해선\n에너지가 제대로 채워져야지!\n...어머, 이 가이세키 메뉴, 멋지네♪",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "1",
+				"message_arrow_5": ""
+			}, {
+				"id": "16",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "joy",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "그치 그치~!\n설 다운 것을 먹고싶다고 다들\n말했으니 여기가 좋지 않을까해서♪",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "17",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "nod_smile",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "『봄을 담은 가이세키 정식』인가~\n이거라면 여행 기분과 설 기분을\n동시에 맛볼수 있겠네요♪",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "1",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "18",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "joy",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "그래, 그야말로 일석이조!\n그러고나서 다음 페이지에 정리된게\n이번 여행의 포인트야~♪",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "19",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "nod_smile",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "어디어디...? 투어리스트 메이코의\n솜씨를 구경해볼까요♪",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "1",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "20",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "......................",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "1",
+				"message_arrow_3": "1",
+				"message_arrow_4": "1",
+				"message_arrow_5": ""
+			}, {
+				"id": "21",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "메이코쨩...\n이『갈수도 안갈수도 있는 타임』\n은...... 뭘까",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "1",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "22",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "tire",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "점심 먹은 뒤에 그 날 저녁까지 쭉\n『갈수도 안갈수도 있는 타임』이네요.\n메이코쨩, 이건...?",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "1",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "23",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "smile_right",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "에헤헷, 잘 물어봤습니다♪\n즉!『그 때의 흐름에 맞춰\n장소를 정하는 시간』이야!",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "24",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "tire",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "............\n혹시나하고 생각했는데\n역시나인 네이밍이었네...",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "1",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "25",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "tire",
+				"motion5": "",
+				"bg_image": "",
+				"message": "으음~... 투어리스트 메이코의\n추천 여행 플랜, 범상치 않은\n냄새가 나네...",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "1",
+				"message_arrow_5": ""
+			}, {
+				"id": "26",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "tire",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "그런말 하지말고 일단 들어봐!\n우리의 여행은 항상 착실히\n계획을 세워서 갔었잖아?",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "27",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "smile_right",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "그래도, 그걸로는 자극이 부족하지 않아?",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "28",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "question_left",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "자극, 인가요?",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "1",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "29",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "joy",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "그래, 자극! 예를 들면 여행에서\n생각지도 못한 예정 외의 곳에 가는...\n그런 일이 있는것도 괜찮잖아!",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "30",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "nod",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "확실히...\n메이코씨는 가이드북에 없는\n스팟을 찾는데 능숙했었죠.",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "1",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "31",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "nod",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "메이코쨩은\n신경쓰이는게 있으면 행동하지\n않으면 안되는 쪽이니까.",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "1",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "32",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "nod_smile",
+				"motion5": "",
+				"bg_image": "",
+				"message": "항상 여기저기 쏘다니니까말이야~\n쫓아가는 것만으로도 큰일인걸!",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "1",
+				"message_arrow_5": ""
+			}, {
+				"id": "33",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "tire",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "아하하, 미안~\n그래도, 꽤 당첨일 때가 많잖아?",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "34",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "smile_left",
+				"motion5": "",
+				"bg_image": "",
+				"message": "그래 그거!\n메이코쨩, 감이 좋으니까♪\n그러니까 따라가게 되는거야",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "1",
+				"message_arrow_5": ""
+			}, {
+				"id": "35",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "nod_smile",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "에헤헷♪\n칭찬받았다♪",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "36",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "tire",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "나츠미씨의 기분은 알지만...\n『갈수도 안갈수도 있는 타임』이\n거의 하루종일인건 심하지 않아?",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "1",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "37",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "tire",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "확실히\n반나절정도가 좋을거같은데...",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "1",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "38",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "저기, 모두의 의견을 보고\n생각했어.",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "39",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "nod",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "경치좋은 곳도 식사도\n역시 우리들은『모르는 무언가』를\n만나고 싶어하는거구나 하는 걸.",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "40",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "『모르는 무언가』,네...",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "1",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "41",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "smile_right",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "그『모르는 무언가』에 걸맞는 건\n그때마다 다들 마음에 드는\n곳을 가는 수밖에 없다 생각해서!",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "42",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "nod",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "......그렇네.\n맞아, 가끔은 4명이서 노플랜으로\n여행하는것도 좋을지도 몰라.",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "1",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "43",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "nod_smile",
+				"motion5": "",
+				"bg_image": "",
+				"message": "예상외의 헤프닝이 있어도\n우리들이라면 즐길 수 있을거야♪",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "1",
+				"message_arrow_5": ""
+			}, {
+				"id": "44",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "nod_smile",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "생각지도 못한 일들이 베스트샷을\n낳곤 하니까요.\n모두의 좋은 표정이 찍힐 것 같아요!",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "1",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "45",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "smile_left",
+				"motion5": "",
+				"bg_image": "",
+				"message": "츠바키쨩만 하고 치사해!\n나도 츠바키쨩의 표정, 찍고싶어!\n다같이 잔뜩 사진을 찍고오자♪",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "1",
+				"message_arrow_5": ""
+			}, {
+				"id": "46",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "nod_smile",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "설여행이니까. 우리 4명이서\n미지의 만남이 넘치는 1년을\n시작할 수 있을거같아. 기대돼♪",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "1",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "47",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "",
+				"motion2": "",
+				"motion3": "nod_smile",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "두근두근 떨림이 가득한 \n로맨틱한 1년을 만들어봐요!",
+				"message_window_type": "",
+				"message_arrow_1": "",
+				"message_arrow_2": "",
+				"message_arrow_3": "1",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "48",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "joy",
+				"motion2": "",
+				"motion3": "",
+				"motion4": "",
+				"motion5": "",
+				"bg_image": "",
+				"message": "말그대로 로맥틱 투어, 네!\n좋아~ 설여행도 새로운 한 해도\n잔뜩 즐겨보자!!",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "",
+				"message_arrow_3": "",
+				"message_arrow_4": "",
+				"message_arrow_5": ""
+			}, {
+				"id": "49",
+				"refresh_room_id": "13",
+				"idol_disp_1": "",
+				"idol_disp_2": "",
+				"idol_disp_3": "",
+				"idol_disp_4": "",
+				"idol_disp_5": "",
+				"motion1": "shout",
+				"motion2": "shout",
+				"motion3": "shout",
+				"motion4": "shout",
+				"motion5": "",
+				"bg_image": "",
+				"message": "오!♪",
+				"message_window_type": "",
+				"message_arrow_1": "1",
+				"message_arrow_2": "1",
+				"message_arrow_3": "1",
+				"message_arrow_4": "1",
+				"message_arrow_5": ""
+			}];
+			petitManager.loaded_action = function() {
+				if (refreshRoom.is_multiply) $('.animation').css({
+					zoom: "50%"
+				});
+				var margin = window.innerHeight - parseInt($('#bg_space > img').css('height'));
+				if (margin > 0) $('#pageContainer').css({
+					"margin-top": margin * 0.5
+				});
+				var $effect_container = $('.effect-container');
+				var $dialogue = $('#dialogue');
+				var dialogue_top = parseInt($dialogue.css('top'));
+				var dialogue_ratio = refreshRoom.dialogue.scaleSizeCheck() / 320;
+				$dialogue.css('top', dialogue_top * dialogue_ratio);
+				if (!$effect_container.hasClass('large-size')) {
+					$dialogue.css('top', dialogue_top * dialogue_ratio);
+					var $animation = $('.animation:not(#dialogue)');
+					var anime_top = parseInt($animation.css('top'));
+					$animation.css('top', anime_top * dialogue_ratio);
+				}
+				$('#jsEyeCatch').hide();
+				refreshRoom.dialogue.startSwf();
+			};
+			petitManager.setWidth(refreshRoom.dialogue.scaleSizeCheck(refreshRoom.is_pc));
+			refreshRoom.bg_list = {
+				"1": "../../12008305/image_sp/ui/refresh_room/bg/bg1.jpg",
+				"": "../../12008305/image_sp/ui/refresh_room/bg/bg.jpg"
+			};
+			var image = new Image;
+			var multiply = refreshRoom.is_pc || window.devicePixelRatio >= 1.5 && !refreshRoom.old_os ? 0.5 : 1;
+			var size = refreshRoom.dialogue.scaleSizeCheck() * multiply;
+			var ratio = size / 320;
+			image.width = size;
+			var effect_container = $('.effect-container');
+			effect_container.css({
+				width: size,
+				height: size,
+				bottom: parseInt(effect_container.css('bottom')) * ratio
+			});
+			image.onload = function() {
+				$('#bg_space').append(image);
+				var height = $(this).css('height');
+				$(this).parent().css('height', height);
+				$(image).css('top', parseInt($(image).css('top')) * ratio);
+				$('#name-plate').css({
+					"-webkit-transform": "scale(" + ratio + ")"
+				})
+				petitManager.setCharacters(refreshRoom.data.idol_avatar);
+				refreshRoom.dialogue.setMotion();
+			}
+			image.src = refreshRoom.bg_list[refreshRoom.detail[0].bg_image];
+			//console.log(refreshRoom);
+		})();
+
+		function playText() {
+			if (window.refreshRoom == void 0) return;
+			refreshRoom.dialogue.comment_deferred.resolve();
+		}
+
+		function motion_callback(index, motion) {
+			var filtered_plate = $('.plate-area[rel=' + index + ']');
+			if (filtered_plate.css('display') == 'none') filtered_plate.show();
+			if (refreshRoom.dialogue.motion_wait) $('#next').trigger('click');
+			refreshRoom.dialogue.motion_wait = false;
+		}
+	</script>
+	<style>
+	</style>
+</body>
+
+</html>

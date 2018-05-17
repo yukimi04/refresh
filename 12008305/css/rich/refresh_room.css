@@ -187,7 +187,7 @@ body#refresh_room{
     width:13px;
     height:13px;
     background-size:13px;
-    background-image:url(http://sp.pf-img-a.mbga.jp/12008305/?url=http://125.6.169.35/idolmaster/image_sp/ui/refresh_room/arrow.png?1511847914);
+    background-image:url(../../image_sp/ui/refresh_room/arrow.png);
     bottom:8px;
     right:5px;
     display:none;
@@ -406,10 +406,9 @@ body#refresh_room{
     height:100%;
     z-index:10000;
     position:absolute;
-    background:url(http://sp.pf-img-a.mbga.jp/12008305/?url=http://125.6.169.35/idolmaster/image_sp/petit_cg/ui/sprite/loading/loading_bg.png?1487720307);
+    background:url(../../image_sp/petit_cg/ui/sprite/loading/loading_bg.png);
     background-size:50%;
     text-align:center;
     overflow:hidden;
     top:0
 }
- 
