@@ -24,13 +24,16 @@
 |19|[끝말잇기 게임♪](https://l4disk.github.io/refresh_room/detail/19/)|완료|
 |20|[수수께끼 해결? 추리소설 추천](https://l4disk.github.io/refresh_room/detail/20/)|완료|
 |21|[콩뿌리기 파티에 어서오세요!](https://l4disk.github.io/refresh_room/detail/21/)|미번역|
+|22|[歌声高らかに…コズミック・シンフォニー](https://l4disk.github.io/refresh_room/detail/22/)|미번역|
 |23|[런치타임·V.V.](https://l4disk.github.io/refresh_room/detail/23/)|완료|
-|23|[GIRLS BE NEXT 초콜릿♪](https://l4disk.github.io/refresh_room/detail/24/)|완료|
+|24|[GIRLS BE NEXT 초콜릿♪](https://l4disk.github.io/refresh_room/detail/24/)|완료|
 |25|[수험에 얽힌 에세트라](https://l4disk.github.io/refresh_room/detail/25/)|완료|
 |26|[무지개색 드리머, 취향을 말하다, 편☆](https://l4disk.github.io/refresh_room/detail/26/)|완료|
+|27|[オトナのお茶会、お気に召すまま♪](https://l4disk.github.io/refresh_room/detail/27/)|미번역|
 |28|[마음에 마음을 더해서, 전하기…♪](https://l4disk.github.io/refresh_room/detail/28/)|완료|
 |33|[해피 에이프릴 풀☆](https://l4disk.github.io/refresh_room/detail/33/)|완료|
 |36|[인디고 벨의 특훈! 빨리 말하기!](https://l4disk.github.io/refresh_room/detail/36/)|완료|
+|42|[버추얼 야구로 라이드 더 웨이브!!](https://l4disk.github.io/refresh_room/detail/42/)|완료|
 
 ## 아이돌 번호 (큐트)
 |아이돌|이름 패널|얼굴|헤어|코스튬|
