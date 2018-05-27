@@ -32,9 +32,9 @@
 |27|[어른의 다과회, 마음가는대로♪](https://l4disk.github.io/refresh_room/detail/27/)|완료|
 |28|[마음에 마음을 더해서, 전하기…♪](https://l4disk.github.io/refresh_room/detail/28/)|완료|
 |29|[ERICATHYはサイコーだ！](https://l4disk.github.io/refresh_room/detail/29/)|미번역|
-|30|[夏に向けて…☆ BY セーラーマリナー](https://l4disk.github.io/refresh_room/detail/30/)|미번역|
+|30|[여름을 향해서...☆ BY 세일러 마리나](https://l4disk.github.io/refresh_room/detail/30/)|완료|
 |31|[ヘルシーサバイブの1日おでかけプラン♪](https://l4disk.github.io/refresh_room/detail/31/)|미번역|
-|32|[春に想うハロー&グッバイ](https://l4disk.github.io/refresh_room/detail/32/)|미번역|
+|32|[봄의 추억에 헬로&굿바이](https://l4disk.github.io/refresh_room/detail/32/)|완료|
 |33|[해피 에이프릴 풀☆](https://l4disk.github.io/refresh_room/detail/33/)|완료|
 |36|[인디고 벨의 특훈! 빨리 말하기!](https://l4disk.github.io/refresh_room/detail/36/)|완료|
 |42|[버추얼 야구로 라이드 더 웨이브!!](https://l4disk.github.io/refresh_room/detail/42/)|완료|
