@@ -33,7 +33,7 @@
 |28|[마음에 마음을 더해서, 전하기…♪](https://l4disk.github.io/refresh_room/detail/28/)|완료|
 |29|[ERICATHYはサイコーだ！](https://l4disk.github.io/refresh_room/detail/29/)|미번역|
 |30|[여름을 향해서...☆ BY 세일러 마리나](https://l4disk.github.io/refresh_room/detail/30/)|완료|
-|31|[ヘルシーサバイブの1日おでかけプラン♪](https://l4disk.github.io/refresh_room/detail/31/)|미번역|
+|31|[헬 서바이벌의 1일 외출 플랜♪](https://l4disk.github.io/refresh_room/detail/31/)|완료|
 |32|[봄의 추억에 헬로&굿바이](https://l4disk.github.io/refresh_room/detail/32/)|완료|
 |33|[해피 에이프릴 풀☆](https://l4disk.github.io/refresh_room/detail/33/)|완료|
 |36|[인디고 벨의 특훈! 빨리 말하기!](https://l4disk.github.io/refresh_room/detail/36/)|완료|
