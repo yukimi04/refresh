@@ -23,13 +23,13 @@
 |18|[쉘·위·댄스♪ with 솔·카마르](https://l4disk.github.io/refresh_room/detail/18/)|완료|
 |19|[끝말잇기 게임♪](https://l4disk.github.io/refresh_room/detail/19/)|완료|
 |20|[수수께끼 해결? 추리소설 추천](https://l4disk.github.io/refresh_room/detail/20/)|완료|
-|21|[콩뿌리기 파티에 어서오세요!](https://l4disk.github.io/refresh_room/detail/21/)|미번역|
-|22|[歌声高らかに…コズミック・シンフォニー](https://l4disk.github.io/refresh_room/detail/22/)|미번역|
+|21|[콩뿌리기 파티에 어서오세요!](https://l4disk.github.io/refresh_room/detail/21/)|완료|
+|22|[노랫소리를 드높이... 코즈믹 심포니](https://l4disk.github.io/refresh_room/detail/22/)|완료|
 |23|[런치타임·V.V.](https://l4disk.github.io/refresh_room/detail/23/)|완료|
 |24|[GIRLS BE NEXT 초콜릿♪](https://l4disk.github.io/refresh_room/detail/24/)|완료|
 |25|[수험에 얽힌 에세트라](https://l4disk.github.io/refresh_room/detail/25/)|완료|
 |26|[무지개색 드리머, 취향을 말하다, 편☆](https://l4disk.github.io/refresh_room/detail/26/)|완료|
-|27|[オトナのお茶会、お気に召すまま♪](https://l4disk.github.io/refresh_room/detail/27/)|미번역|
+|27|[어른의 다과회, 마음가는대로♪](https://l4disk.github.io/refresh_room/detail/27/)|완료|
 |28|[마음에 마음을 더해서, 전하기…♪](https://l4disk.github.io/refresh_room/detail/28/)|완료|
 |29|[ERICATHYはサイコーだ！](https://l4disk.github.io/refresh_room/detail/29/)|미번역|
 |30|[夏に向けて…☆ BY セーラーマリナー](https://l4disk.github.io/refresh_room/detail/30/)|미번역|
