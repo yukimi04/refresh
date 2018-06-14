@@ -23,6 +23,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     <article>
         <section id="pageContainer" class="m-Btm0">
             <div id="bg_space" class="large-size"></div>
@@ -72,6 +73,57 @@
             refreshRoom.returnUrl = '../../';
             refreshRoom.dialogueSwf = '../../petit_refresh_room_balloon_swf';
             refreshRoom.data = {
+=======
+	<article>
+		<section id="pageContainer" class="m-Btm0">
+			<div id="bg_space" class="large-size"></div>
+			<div id="jsEyeCatch">
+				<div style="margin-top:120px"><img src='../../12008305/image_sp/petit_cg/ui/sprite/loading/working_1.gif' width="195" height="139"></div>
+				<div style="margin-top:-80px"><img src='../../12008305/image_sp/petit_cg/ui/sprite/loading/loading.gif' width="102" height="102"></div>
+			</div>
+			<div class="effect-container large-size">
+				<div id="animation-container"></div>
+				<div id="dialogue" class="animation"></div>
+				<div class="story" style="text-align:left;">
+					<div class="comment-container">
+						<span></span><br>
+						<span></span><br>
+						<span></span><br>
+					</div>
+					<a href="#" class="story_btn" style="display:none;"></a>
+				</div>
+			</div>
+			<div id="name-plate" rel="3" class="large-size">
+				<div class="plate-area" rel="1">
+					<img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/13.png'>
+				</div>
+				<div class="plate-area" rel="2">
+					<img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/101.png'>
+				</div>
+				<div class="plate-area" rel="3">
+					<img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/59.png'>
+				</div>
+			</div>
+			<a id="next" class="next large-size" href="#"></a>
+		</section>
+	</article>
+	<script type="text/javascript">
+		(function() {
+			var refreshRoom = window.refreshRoom || {};
+			var ua = navigator.userAgent;
+			var in_chome = false;
+			try {
+				in_chrome = (chrome in window);
+			} catch (e) {
+				in_chrome = false;
+			}
+			refreshRoom.is_pc = in_chrome || (window.chrome ? true : false) && (window.chrome.webstore) || ua.indexOf('ChromeApp') > -1 || ua.indexOf('AAWebview') > -1;
+			refreshRoom.old_os = ua.match(/(OS [3-7]|Android [2-4])/);
+			refreshRoom.is_multiply = false;
+			refreshRoom.returnUrl = '../..';
+			refreshRoom.dialogueSwf = '../../petit_refresh_room_balloon_swf';
+			refreshRoom.data = {
+>>>>>>> master
                 "id": "48",
                 "refresh_room_id": "48",
                 "start_time": "2018/06/14 15:00:00",
