@@ -42,3 +42,5 @@
 |37|[その名は、パンカーニバル](https://l4disk.github.io/refresh_room/detail/37/)|미번역|
 |38|[力を合わせて！めざセクシー☆](https://l4disk.github.io/refresh_room/detail/38/)|미번역|
 |42|[버추얼 야구로 라이드 더 웨이브!!](https://l4disk.github.io/refresh_room/detail/42/)|완료|
+|46|[어두운 하늘, 근심의 계절](https://l4disk.github.io/refresh_room/detail/46/)|완료|
+|48|[저기, 당신...♪ 어느쪽으로 할래?](https://l4disk.github.io/refresh_room/detail/48/)|완료|
