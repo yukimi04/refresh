@@ -2,33 +2,78 @@
 <html lang="ja" xml:lang="ja">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="pragma" content="no-cache">
-	<meta http-equiv="cache-control" content="no-cache">
-	<meta http-equiv="expires" content="-1">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="mobage: footer-color" content="none">
-	<link rel="stylesheet" href='../../12008305/css/game/pex.css' media="all">
-	<script src='../../12008305/js/jquery-2.2.2.min.js'></script>
-	<script src='../../12008305/js/ilibrary.js'></script>
-	<script src='../../12008305/js/pex-petit-1.2.0.js'></script>
-	<script src='../../12008305/js/pex_common.js'></script>
-	<script src='../../12008305/js/min/petit_manager.min.js'></script>
-	<script src='../../12008305/js/min/refresh_room.min.js'></script>
-	<title>아이돌마스터 신데렐라 걸즈</title>
-	<link rel="stylesheet" type="text/css" href="../../12008305/css/rich/refresh_room.css" media="all">
-	<script type='text/javascript'>
-		var se_flg = 0,
-			bgm_flg = 0,
-			chrome_app_flg = 0,
-			chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
-	</script>
-	<script type='text/javascript' src='../../12008305/js/app_sound.js'></script>
-	<link rel="stylesheet" type="text/css" href="../../css/base.css?20171116" />
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobage: footer-color" content="none">
+    <link rel="stylesheet" href='../../12008305/css/game/pex.css' media="all">
+    <script src='../../12008305/js/jquery-2.2.2.min.js'></script>
+    <script src='../../12008305/js/ilibrary.js'></script>
+    <script src='../../12008305/js/pex-petit-1.2.0.js'></script>
+    <script src='../../12008305/js/pex_common.js'></script>
+    <script src='../../12008305/js/min/petit_manager.min.js'></script>
+    <script src='../../12008305/js/min/refresh_room.min.js'></script>
+    <title>아이돌마스터 신데렐라 걸즈</title>
+    <link rel="stylesheet" type="text/css" href="../../12008305/css/rich/refresh_room.css" media="all">
+    <script type='text/javascript' src='../../12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="../../css/base.css?20171116" />
 </head>
 
 <body>
+<<<<<<< HEAD
+    <article>
+        <section id="pageContainer" class="m-Btm0">
+            <div id="bg_space" class="large-size"></div>
+            <div id="jsEyeCatch">
+                <div style="margin-top:120px"><img src='../../12008305/image_sp/petit_cg/ui/sprite/loading/working_1.gif' width="195" height="139"></div>
+                <div style="margin-top:-80px"><img src='../../12008305/image_sp/petit_cg/ui/sprite/loading/loading.gif' width="102" height="102"></div>
+            </div>
+            <div class="effect-container large-size">
+                <div id="animation-container"></div>
+                <div id="dialogue" class="animation"></div>
+                <div class="story" style="text-align:left;">
+                    <div class="comment-container">
+                        <span></span><br>
+                        <span></span><br>
+                        <span></span><br>
+                    </div>
+                    <a href="#" class="story_btn" style="display:none;"></a>
+                </div>
+            </div>
+            <div id="name-plate" rel="3" class="large-size">
+                <div class="plate-area" rel="1">
+                    <img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/13.png'>
+                </div>
+                <div class="plate-area" rel="2">
+                    <img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/101.png'>
+                </div>
+                <div class="plate-area" rel="3">
+                    <img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/59.png'>
+                </div>
+            </div>
+            <a id="next" class="next large-size" href="#"></a>
+        </section>
+    </article>
+    <script type="text/javascript">
+        (function() {
+            var refreshRoom = window.refreshRoom || {};
+            var ua = navigator.userAgent;
+            var in_chome = false;
+            try {
+                in_chrome = (chrome in window);
+            } catch (e) {
+                in_chrome = false;
+            }
+            refreshRoom.is_pc = in_chrome || (window.chrome ? true : false) && (window.chrome.webstore) || ua.indexOf('ChromeApp') > -1 || ua.indexOf('AAWebview') > -1;
+            refreshRoom.old_os = ua.match(/(OS [3-7]|Android [2-4])/);
+            refreshRoom.is_multiply = false;
+            refreshRoom.returnUrl = '../../';
+            refreshRoom.dialogueSwf = '../../petit_refresh_room_balloon_swf';
+            refreshRoom.data = {
+=======
 	<article>
 		<section id="pageContainer" class="m-Btm0">
 			<div id="bg_space" class="large-size"></div>
@@ -78,10 +123,11 @@
 			refreshRoom.returnUrl = '../..';
 			refreshRoom.dialogueSwf = '../../petit_refresh_room_balloon_swf';
 			refreshRoom.data = {
+>>>>>>> master
                 "id": "48",
                 "refresh_room_id": "48",
-                "start_time": "2018\/06\/14 15:00:00",
-                "refresh_room_name": "\u306d\u3048\u3001\u30a2\u30ca\u30bf\u2026\u266a<BR>\u3069\u3063\u3061\u306b\u3059\u308b\uff1f",
+                "start_time": "2018/06/14 15:00:00",
+                "refresh_room_name": "저기, 당신…♪<BR>누구로 할래?",
                 "idol_set_id_1": "141",
                 "idol_accessory_set_id_1": "23",
                 "idol_set_id_2": "142",
@@ -92,14 +138,14 @@
                 "idol_accessory_set_id_4": "",
                 "idol_set_id_5": "",
                 "idol_accessory_set_id_5": "",
-                "idol_name_1": "\u4e94\u5341\u5d50\u97ff\u5b50",
-                "idol_kana_1": "\u3044\u304c\u3089\u3057\u304d\u3087\u3046\u3053",
+                "idol_name_1": "五十嵐響子",
+                "idol_kana_1": "いがらしきょうこ",
                 "name_plate_id_1": "13",
-                "idol_name_2": "\u5317\u6761\u52a0\u84ee",
-                "idol_kana_2": "\u307b\u3046\u3058\u3087\u3046\u304b\u308c\u3093",
+                "idol_name_2": "北条加蓮",
+                "idol_kana_2": "ほうじょうかれん",
                 "name_plate_id_2": "101",
-                "idol_name_3": "\u4f50\u4e45\u9593\u307e\u3086",
-                "idol_kana_3": "\u3055\u304f\u307e\u307e\u3086",
+                "idol_name_3": "佐久間まゆ",
+                "idol_kana_3": "さくままゆ",
                 "name_plate_id_3": "59",
                 "idol_name_4": "",
                 "idol_kana_4": "",
@@ -110,7 +156,7 @@
                         "attribute": "1",
                         "body_type": "1",
                         "breast_size": "2",
-                        "short_name": "\u97ff\u5b50",
+                        "short_name": "쿄코",
                         "image_url_list": {
                             "expression_1061": "../../12008305/js/petit_cg/expression/1061.js",
                             "hair_10061": "../../12008305/js/petit_cg/hair/10061.js",
@@ -126,28 +172,13 @@
                             "head": 0,
                             "hand": 0,
                             "leg": 0
-                        },
-                        "petit_csv_info_list": {
-                            "costume_1_23261": {
-                                "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F23261",
-                                "accessory_name": "\u30e1\u30eb\u30d8\u30f3\u2605\u30a6\u30a7\u30c7\u30a3\u30f3\u30b0\u30c9\u30ec\u30b9",
-                                "explanation": "\u8a93\u3044\u306e\u30c9\u30ec\u30b9\u306f\u5b87\u5b99\u5171\u901a?<br>\u30d6\u30e9\u30a4\u30c0\u30eb\u30d1\u30ef\u30fc\u3092\u305f\u3063\u3077\u308a\u30c1\u30e3\u30fc\u30b8\u3057\u305f\u30c9\u30ec\u30b9\u3067\u3059\u3002",
-                                "type_id": "2"
-                            },
-                            "head_1_33107": {
-                                "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F33107",
-                                "accessory_name": "\u30e1\u30eb\u30d8\u30f3\u2605\u30a6\u30a7\u30c7\u30a3\u30f3\u30b0\u30d5\u30e9\u30ef\u30fc\u30c6\u30a3\u30a2\u30e9",
-                                "explanation": "\u82b1\u305f\u3061\u304c\u7d21\u3044\u3060\u3001\u3042\u306e\u65e5\u306e\u601d\u3044\u51fa\u3002<br>\u3053\u308c\u304b\u3089\u306f\u3001\u8cb4\u65b9\u3068\u6b69\u3080\u82b1\u306e\u9053\u3002",
-                                "type_id": "3"
-                            }
-                        },
-                        "petit_csv_sub_type_info_list": []
+                        }
                     },
                     "2": {
                         "attribute": "2",
                         "body_type": "1",
                         "breast_size": "2",
-                        "short_name": "\u52a0\u84ee",
+                        "short_name": "카렌",
                         "image_url_list": {
                             "expression_1024": "../../12008305/js/petit_cg/expression/1024.js",
                             "hair_10024": "../../12008305/js/petit_cg/hair/10024.js",
@@ -164,34 +195,13 @@
                             "head": 0,
                             "hand": 0,
                             "leg": 0
-                        },
-                        "petit_csv_info_list": {
-                            "costume_1_23176": {
-                                "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F23176",
-                                "accessory_name": "\u8a93\u3044\u306e\u30a6\u30a7\u30c7\u30a3\u30f3\u30b0\u30c9\u30ec\u30b9",
-                                "explanation": "\u30ad\u30e9\u30ad\u30e9\u8f1d\u304f\u771f\u3063\u767d\u306a\u30a6\u30a7\u30c7\u30a3\u30f3\u30b0\u30c9\u30ec\u30b9\u3067\u3059\u3002<br>\u8cb4\u65b9\u3068\u3001\u3069\u3053\u307e\u3067\u3082\u2026\u3002",
-                                "type_id": "2"
-                            },
-                            "head_1_33027": {
-                                "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F33027",
-                                "accessory_name": "\u30a8\u30a2\u30ea\u30fc\u30a2\u30c9\u30d0\u30f3\u30b9\u30b3\u30b5\u30fc\u30b8\u30e5",
-                                "explanation": "\u30b7\u30eb\u30d0\u30fc\u30d3\u30b8\u30e5\u30fc\u304c\u8f1d\u304f\u767d\u3044\u30b3\u30b5\u30fc\u30b8\u30e5\u3067\u3059\u3002<br>\u5927\u3076\u308a\u30b7\u30eb\u30a8\u30c3\u30c8\u304c\u98a8\u306b\u821e\u3063\u3066\u7d20\u6575!",
-                                "type_id": "3"
-                            },
-                            "hand_1_41009": {
-                                "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F41009",
-                                "accessory_name": "\u30a8\u30a2\u30ea\u30fc\u30a2\u30c9\u30d0\u30f3\u30b9\u30ab\u30d5\u30b9",
-                                "explanation": "\u8efd\u3084\u304b\u306a\u7d20\u6750\u3067\u3067\u304d\u305f\u30d5\u30ea\u30eb\u30ab\u30d5\u30b9\u3067\u3059\u3002<br>\u8eab\u306b\u3064\u3051\u305f\u3060\u3051\u3067\u5fc3\u307e\u3067\u8efd\u304f\u306a\u308c\u305d\u3046\u3002",
-                                "type_id": "4"
-                            }
-                        },
-                        "petit_csv_sub_type_info_list": []
+                        }
                     },
                     "3": {
                         "attribute": "1",
                         "body_type": "1",
                         "breast_size": "2",
-                        "short_name": "\u307e\u3086",
+                        "short_name": "마유",
                         "image_url_list": {
                             "expression_1037": "../../12008305/js/petit_cg/expression/1037.js",
                             "hair_10037": "../../12008305/js/petit_cg/hair/10037.js",
@@ -208,28 +218,7 @@
                             "head": 0,
                             "hand": 0,
                             "leg": 0
-                        },
-                        "petit_csv_info_list": {
-                            "costume_1_23067": {
-                                "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F23067",
-                                "accessory_name": "\u7d14\u767d\u306e\u30a6\u30a7\u30c7\u30a3\u30f3\u30b0\u30c9\u30ec\u30b9",
-                                "explanation": "\u304b\u308f\u3044\u3044\u82b1\u5ac1\u306b\u30d4\u30c3\u30bf\u30ea\u306a\u30a6\u30a7\u30c7\u30a3\u30f3\u30b0\u30c9\u30ec\u30b9\u3067\u3059\u3002<br>\u5973\u306e\u5b50\u306a\u3089\u4e00\u5ea6\u306f\u61a7\u308c\u3061\u3083\u3046\u3088\u306d\u266a",
-                                "type_id": "2"
-                            },
-                            "head_1_33120": {
-                                "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F33120",
-                                "accessory_name": "\u8594\u8587\u306e\u9aea\u98fe\u308a",
-                                "explanation": "\u5fc3\u306e\u4e2d\u306e\u30ec\u30c7\u30a3\u30fc\u304c\u76ee\u899a\u3081\u308b\u3001\u4e59\u5973\u306e\u5fc5\u9808\u30a2\u30a4\u30c6\u30e0\u3002<br>\u307b\u306e\u304b\u306a\u8594\u8587\u306e\u9999\u308a\u306f\u3001\u30a8\u30ec\u30ac\u30f3\u30c8\u306b\u307e\u3068\u3063\u3066\u3002",
-                                "type_id": "3"
-                            },
-                            "hand_1_42012": {
-                                "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F42012",
-                                "accessory_name": "\u7d14\u767d\u306e\u30d6\u30e9\u30a4\u30c0\u30eb\u30b0\u30ed\u30fc\u30d6",
-                                "explanation": "\u30d4\u30e5\u30a2\u306a\u5fc3\u306b\u306a\u308c\u305d\u3046\u306a\u30d6\u30e9\u30a4\u30c0\u30eb\u30b0\u30ed\u30fc\u30d6\u3067\u3059\u3002<br>\u7a62\u308c\u306e\u306a\u3044\u771f\u3063\u767d\u306a\u60f3\u3044\u3092\u3053\u3081\u3066\u3002",
-                                "type_id": "4"
-                            }
-                        },
-                        "petit_csv_sub_type_info_list": []
+                        }
                     }
                 }
             };
@@ -251,7 +240,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "1",
-                "message": "후우~ 다들 고생했어~",
+                "message": "후우~, \n다들 고생했어~.",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -272,7 +261,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "수고하셨습니다! 오늘 촬영,\n길어졌네요. 역시 조금\n 지쳐버렸네요. 에헤헤...",
+                "message": "수고하셨습니다! 오늘 촬영은 \n오래 걸렸네요. 역시 조금\n 지쳐버렸어요. 에헤헤….",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -293,7 +282,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "후훗, 나도♪\n일하는 동안 옷을 입는건 익숙해 졌지만\n드레스는 역시 조금 긴장되네",
+                "message": "후훗, 나도♪\n직업상 의상을 입는건 익숙해 졌지만\n드레스는 역시 조금 긴장하게 되는걸.",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -314,7 +303,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "저도 무척 긴장됐어요\n웨딩드레스는 여자아이에게 있어\n특별한 의상이니까...♪",
+                "message": "저도 무척 긴장됐어요.\n웨딩드레스는 여자아이에게 있어\n특별한 의상이니까…♪",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "",
@@ -335,7 +324,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "행복한 두 사람이 가장 행복할 시간...\n마유, 마음을 담아서 촬영에 \n임헀다고 생각해요♪",
+                "message": "행복한 두 사람이 가장 행복할 순간…\n마유, 마음을 담아서 촬영에 \n임했다고 생각해요♪",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "",
@@ -356,7 +345,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "행복한 순간인가...\n저도 마음을 담아서 촬영을 한걸지도♪ ",
+                "message": "행복한 순간인가…\n저도 마음을 담아서 \n촬영을 한 것 같아요♪",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -377,7 +366,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "두 사람다 대단하네\n난, 엄청 긴장해버려서...\n처음에 엄청 딱딱하지 않았어?",
+                "message": "두 사람 다 대단하네.\n난, 엄청 긴장해버려서…\n처음에 엄청 딱딱하지 않았어?",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -398,7 +387,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "음... 확실히\n조금 그랬을지도?",
+                "message": "음ー… 확실히\n조금 그랬던 것 같기도?",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -419,7 +408,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "아차, 역시 그랬어?",
+                "message": "아차ー, 역시 그랬어?",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -440,7 +429,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "그래도 촬영이 시작될 때에 쿄코쨩이\n릴렉스하게 해줬으니까...\n자연스러운 미소가 나왔네요♪",
+                "message": "그래도 촬영이 시작될 때에 쿄코 쨩이\n마음을 진정시켜줘서…\n자연스러운 미소가 나왔네요♪",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "",
@@ -461,7 +450,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "맞아 맞아! 그건 도움이 됐지♪\n쿄코, 정말 착실한 아이인걸",
+                "message": "맞아 맞아! 그건 도움이 됐지♪\n쿄코는 정말 똑 부러진다니까.",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -482,7 +471,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "저도... 쿄코쨩 덕분에\n릴렉스하게 촬영할 수 있었구요",
+                "message": "저도… 쿄코 쨩 덕분에\n침착하게 촬영할 수 있었구요.",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "",
@@ -503,7 +492,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "앗 그랬나요!?",
+                "message": "엣, 그랬나요!?",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -524,7 +513,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "네♪ 일할 때에도 사적인 때에도\n척척 일을 해내서... 쿄코쨩이 함께\n하는 현장은 안심이 돼요...♪",
+                "message": "네♪ 일할 때에도 사적인 때에도\n척척 일을 해내서… 쿄코 쨩이 함께\n하는 현장은 안심이 돼요…♪",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "",
@@ -545,7 +534,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "아 그거 알거같아!\n쿄코는 말야, 「모두의 언니」\n같은 느낌이지♪",
+                "message": "아, 그거 알 거 같아!\n쿄코는 말야, 「모두의 언니」\n같은 느낌이지♪",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -566,7 +555,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "네에~!?\n그렇게 언니 같았나요?",
+                "message": "네에~!?\n그렇게 언니 같았어요?",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -608,7 +597,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "아으~......\n동생이 있으니까 무심코 언니같이\n되는걸지도...",
+                "message": "아으~……\n동생이 있어서 무심코 언니같이\n되는 걸지도….",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -629,7 +618,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "유난떠는것처럼 보이면\n나쁜게 아닐까 생각해서\n신경쓰고 있었는데...",
+                "message": "유난떠는 것처럼 보이면\n안 좋을까봐\n신경쓰고 있었는데….",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -650,7 +639,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "괜찮잖아. 『쿄코언니』♪\n거기다 착실한 아이라는 말은\n좋은 신부가 될거라는 말이기도 하고!",
+                "message": "상관없잖아. 『쿄코언니』♪\n거기다 똑 부러진다는 말은\n좋은 신부가 될 거라는 말이기도 하고!",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -671,7 +660,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "쿄코쨩은\n요리도 빨래도 특기이지 않나요?",
+                "message": "쿄코 쨩은\n요리도 빨래도 잘하지 않나요?",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "",
@@ -692,7 +681,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "넷. 아, 그래도... 집안일을 돕는\n일이 많았으니까 가사전반을 자연\n스럽게 할 수 있었을 뿐인걸요?",
+                "message": "넷. 아, 하지만… 집안일을 돕는 일이 \n많아서 가사전반을 자연스럽게\n 하게 됐을 뿐인걸요?",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -713,7 +702,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "저도 요리는 특기인 편이지만,\n쿄코쨩에게 배워보고 싶어요...♪",
+                "message": "저도 요리는 잘하는 편이지만,\n쿄코 쨩에게 배워보고 싶어요…♪",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "",
@@ -734,7 +723,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "와, 그거 재밌어보이네!\n쿄코와 마유의 요리교실!",
+                "message": "와, 그거 재밌을 거 같아! \n쿄코와 마유의 요리교실!",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -755,7 +744,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "앗... 저도 선생님인건가요?",
+                "message": "앗… 저도 선생님인 건가요?",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "",
@@ -776,7 +765,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "그럼♪ 마유도 요리는 특기잖아?\n둘이서 나를 가르치는건 어떨까나?",
+                "message": "그럼♪ 마유도 요리 잘하잖아?\n둘이서 나를 가르치는 건 어때?",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -797,7 +786,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "우후훗, 재밌어보여...♪\n저도 쿄코쨩에게 요리를\n이것저것 배워보고 싶어요",
+                "message": "우후훗, 재밌을 것 같아…♪\n저도 쿄코 쨩에게 요리를\n이것저것 배워보고 싶어요.",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "",
@@ -818,7 +807,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "와아♪ 저도 마유씨에게\n요리를 배워보고 싶어요!\n귀여운 요리같은게 특기인것 같아서",
+                "message": "와아♪ 저도 마유 씨에게\n요리를 배워보고 싶어요!\n귀여운 요리같은 게 특기인 것 같아서",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -839,7 +828,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "그래그래, 마유가 만든 도시락은\n항상 귀여웠지\n햄이 꽃이 되곤 하니까♪",
+                "message": "그래그래, 마유가 만든 도시락은\n항상 귀여웠지\n햄이 꽃으로 변하곤 하니까♪",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -860,7 +849,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "비엔나도 그래요♪\n문어모양뿐만 아니라, 게라던가\n토끼가 되곤해서!",
+                "message": "비엔나도 그래요♪\n문어 모양뿐만 아니라, 꽃게나\n토끼가 되기도 하고!",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -881,7 +870,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "마유도 정말 재주가 좋네~!\n그런 기술은 어떻게 하는거야?",
+                "message": "마유도 정말 손재주가 좋네~!\n그런 기술은 어떻게 하는 거야?",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -902,7 +891,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "섬세한 작업은 어렵지 않은가요?",
+                "message": "섬세한 작업은 어렵지 않나요?",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -923,7 +912,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "요령을 안다면 의외로\n간단하다구요?\n두분에게도 알려드릴게요...♪",
+                "message": "요령만 알면 \n의외로 간단하다구요?\n두 분에게도 알려드릴게요…♪",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "",
@@ -944,7 +933,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "됐다~♪\n나, 손재주에는 조금 자신이 있으니까\n열심히 해볼까나",
+                "message": "야호~♪ \n나도 손재주에는 조금 자신있으니까\n열심히 해봐야지.",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -965,7 +954,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "자아, 드레스를 갈아입고 나면\n빨리 계획을 세워보죠!",
+                "message": "자아, 드레스를 갈아입고 나서\n빨리 계획을 세워보죠!",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -986,7 +975,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "아, 좋은게 생각났다!\n모처럼이니까 뭔가 요리 테마를\n정해보지 않을래?",
+                "message": "아, 좋은 게 생각났다!\n모처럼이니까 뭔가 요리 테마를\n정해보지 않을래?",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -1007,7 +996,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "우후훗, 재밌어보이네요♪\n요리대결이네요. 그러면...\n향토요리대결, 같은건 어떤가요?",
+                "message": "우후훗, 재밌겠네요♪\n요리대결이네요. 그러면…\n향토요리대결, 같은 건 어떨까요?",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "",
@@ -1028,7 +1017,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "마유는 센다이, 쿄코는 돗토리인가...\n음, 왠지 기대되네!\n어떤 요리를 먹게 될까♪",
+                "message": "마유는 센다이, 쿄코는 돗토리인가…\n음, 왠지 기대되네!\n어떤 요리를 먹게 될까♪",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -1049,7 +1038,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "정말\n카렌쨩도 만들어야 되는걸요?\n시식 전문은 안된....다구요?",
+                "message": "아이 참, \n카렌 쨩도 만들어야 하는데요?\n시식 전문은 금지…라구요?",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "",
@@ -1070,7 +1059,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "아하하..................역시 그런가?",
+                "message": "아하하………………역시 그렇지?",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -1091,7 +1080,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "물론이죠!\n거기다 요리교실이라고 말한건\n카렌씨잖아요♪",
+                "message": "물론이죠!\n거기다 요리교실이라고 말한건\n카렌 씨잖아요♪",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -1112,7 +1101,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "으으......\n뭐 그건 그렇지만 말이야.",
+                "message": "으으……\n뭐 그건 그렇지만 말이야.",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
@@ -1133,7 +1122,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "쿄코쨩과 제가 각자\n카렌쨩에게 요리를 가르쳐줘서......",
+                "message": "쿄코 쨩과 제가 각자\n카렌 쨩에게 요리를 가르쳐줘서……",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "",
@@ -1154,7 +1143,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "카렌씨가 만든 요리를\n마유씨와 저, 두사람이 심사한다!\n음, 괜찮을지도♪",
+                "message": "카렌 씨가 만든 요리를\n마유 씨와 저, 두 사람이 심사한다!\n음, 괜찮겠네요♪",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -1196,7 +1185,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "자자♪ 그러면 카렌씨\n저와 마유씨,\n어느쪽에게 먼저 요리를 배울래요?",
+                "message": "자자♪ 그러면 카렌 씨\n저와 마유 씨,\n누ㄱ구한테 먼저 요리를 배울래요?",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -1217,7 +1206,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "상냥하게 알려드릴테니까요오...♪\n우후후♪",
+                "message": "상냥하게 알려드릴테니까요오…♪\n우후후♪",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "",
@@ -1238,7 +1227,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "으으~ 둘 다 심술쟁이야...\n이렇게 된 이상 둘 다 맛있다고\n말하게 만들거니까~!",
+                "message": "으으~ 둘 다 심술쟁이야…\n이렇게 된 이상 둘 다 맛있다고\n말하게 만들 테니까~!",
                 "message_window_type": "",
                 "message_arrow_1": "",
                 "message_arrow_2": "1",
