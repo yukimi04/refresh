@@ -171,6 +171,10 @@ refApp.controller('refCtrl', ['$scope', '$filter', function($scope, $filter) {
 		id: 42,
 		name: ["버추얼 야구로", "라이드 더 웨이브!!"],
 		idol: "姫川由紀_日野茜_沢田麻理菜_히메카와유키_히노아카네_사와다마리나"
+	}, {
+		id: 48,
+		name: ["저기, 당신…♪", "누구로 할래?"],
+		idol: "五十嵐響子_北条加蓮_佐久間まゆ_이가라시쿄코_호죠카렌_사쿠마마유"
 	}];
 	$scope.q = '';
 
