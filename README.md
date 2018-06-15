@@ -49,5 +49,5 @@
 |44|[ちょっぴり甘えていきましょ～♪](https://l4disk.github.io/refresh_room/detail/44/)|미번역|
 |45|[キラキラ紡いでこれからもShowタイム！](https://l4disk.github.io/refresh_room/detail/45/)|미번역|
 |46|[어두운 하늘, 근심의 계절](https://l4disk.github.io/refresh_room/detail/46/)|완료|
-|47|[876プロより愛を込めて](https://l4disk.github.io/refresh_room/detail/47/)|미번역|
+|47|[876프로가 사랑을 담아서](https://l4disk.github.io/refresh_room/detail/47/)|완료|
 |48|[저기, 당신...♪ 누구로 할래?](https://l4disk.github.io/refresh_room/detail/48/)|완료|
