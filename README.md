@@ -41,6 +41,13 @@
 |36|[인디고 벨의 특훈! 빨리 말하기!](https://l4disk.github.io/refresh_room/detail/36/)|완료|
 |37|[その名は、パンカーニバル](https://l4disk.github.io/refresh_room/detail/37/)|미번역|
 |38|[力を合わせて！めざセクシー☆](https://l4disk.github.io/refresh_room/detail/38/)|미번역|
+|39|[そこに山があるからだ！](https://l4disk.github.io/refresh_room/detail/39/)|미번역|
+|40|[尊きHoliday](https://l4disk.github.io/refresh_room/detail/40/)|미번역|
+|41|[ヒーローになるために](https://l4disk.github.io/refresh_room/detail/41/)|미번역|
 |42|[버추얼 야구로 라이드 더 웨이브!!](https://l4disk.github.io/refresh_room/detail/42/)|완료|
+|43|[ピュアに、オシャレに、大胆に…♪](https://l4disk.github.io/refresh_room/detail/43/)|미번역|
+|44|[ちょっぴり甘えていきましょ～♪](https://l4disk.github.io/refresh_room/detail/44/)|미번역|
+|45|[キラキラ紡いでこれからもShowタイム！](https://l4disk.github.io/refresh_room/detail/45/)|미번역|
 |46|[어두운 하늘, 근심의 계절](https://l4disk.github.io/refresh_room/detail/46/)|완료|
-|48|[저기, 당신...♪ 어느쪽으로 할래?](https://l4disk.github.io/refresh_room/detail/48/)|완료|
+|47|[876プロより愛を込めて](https://l4disk.github.io/refresh_room/detail/47/)|미번역|
+|48|[저기, 당신...♪ 누구로 할래?](https://l4disk.github.io/refresh_room/detail/48/)|완료|
