@@ -51,3 +51,5 @@
 |46|[어두운 하늘, 근심의 계절](https://l4disk.github.io/refresh_room/detail/46/)|완료|
 |47|[876프로가 사랑을 담아서](https://l4disk.github.io/refresh_room/detail/47/)|완료|
 |48|[저기, 당신...♪ 누구로 할래?](https://l4disk.github.io/refresh_room/detail/48/)|완료|
+|49|[気分はいつでもレイジー・レイジー](https://l4disk.github.io/refresh_room/detail/49/)|미번역|
+|50|[ロックって何だろう？](https://l4disk.github.io/refresh_room/detail/50/)|미번역|
