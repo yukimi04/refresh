@@ -195,7 +195,15 @@ refApp.controller('refCtrl', ['$scope', '$filter', function($scope, $filter) {
 		id: 48,
 		name: ["저기, 당신…♪", "누구로 할래?"],
 		idol: "五十嵐響子_北条加蓮_佐久間まゆ_이가라시쿄코_호죠카렌_사쿠마마유"
-	}];
+	}/*, {
+		id: 49,
+		name: ["気分はいつで", "もレイジー・レイジー"],
+		idol: "宮本フレデリカ_一ノ瀬志希_미야모토프레데리카_이치노세시키"
+	}, {
+		id: 50,
+		name: ["ロックって何だろう？"],
+		idol: "木村夏樹_多田李衣菜_키무라나츠키_타다리이나"
+	}*/];
 	$scope.q = '';
 
 	$scope.getData = function() {
