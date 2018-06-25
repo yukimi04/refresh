@@ -39,7 +39,7 @@
 |34|[桜前線、北上中っ♪](https://l4disk.github.io/refresh_room/detail/34/)|미번역|
 |35|[ようこそ♪ハートウォーマーの占い館](https://l4disk.github.io/refresh_room/detail/35/)|미번역|
 |36|[인디고 벨의 특훈! 빨리 말하기!](https://l4disk.github.io/refresh_room/detail/36/)|완료|
-|37|[その名は、パンカーニバル](https://l4disk.github.io/refresh_room/detail/37/)|미번역|
+|37|[이름하여, 빵 카니발!](https://l4disk.github.io/refresh_room/detail/37/)|완료|
 |38|[力を合わせて！めざセクシー☆](https://l4disk.github.io/refresh_room/detail/38/)|미번역|
 |39|[そこに山があるからだ！](https://l4disk.github.io/refresh_room/detail/39/)|미번역|
 |40|[尊きHoliday](https://l4disk.github.io/refresh_room/detail/40/)|미번역|
