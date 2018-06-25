@@ -203,6 +203,10 @@ refApp.controller('refCtrl', ['$scope', '$filter', function($scope, $filter) {
 		id: 50,
 		name: ["ロックって何だろう？"],
 		idol: "木村夏樹_多田李衣菜_키무라나츠키_타다리이나"
+	}, {
+		id: 51,
+		name: ["乙女の季節、ですね♪"],
+		idol: "佐藤心_長富蓮実_사토신_나가토미하스미"
 	}*/];
 	$scope.q = '';
 
