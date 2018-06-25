@@ -39,7 +39,7 @@
 |34|[桜前線、北上中っ♪](https://l4disk.github.io/refresh_room/detail/34/)|미번역|
 |35|[ようこそ♪ハートウォーマーの占い館](https://l4disk.github.io/refresh_room/detail/35/)|미번역|
 |36|[인디고 벨의 특훈! 빨리 말하기!](https://l4disk.github.io/refresh_room/detail/36/)|완료|
-|37|[이름하여, 빵 카니발!](https://l4disk.github.io/refresh_room/detail/37/)|완료|
+|37|[이름하야, 빵 카니발](https://l4disk.github.io/refresh_room/detail/37/)|완료|
 |38|[力を合わせて！めざセクシー☆](https://l4disk.github.io/refresh_room/detail/38/)|미번역|
 |39|[そこに山があるからだ！](https://l4disk.github.io/refresh_room/detail/39/)|미번역|
 |40|[尊きHoliday](https://l4disk.github.io/refresh_room/detail/40/)|미번역|
@@ -53,4 +53,4 @@
 |48|[저기, 당신...♪ 누구로 할래?](https://l4disk.github.io/refresh_room/detail/48/)|완료|
 |49|[気分はいつでもレイジー・レイジー](https://l4disk.github.io/refresh_room/detail/49/)|미번역|
 |50|[ロックって何だろう？](https://l4disk.github.io/refresh_room/detail/50/)|미번역|
-|51|[乙女の季節、ですね♪](https://l4disk.github.io/refresh_room/detail/51/)|미번역|
+|51|[숙녀의 계절,이네요♪](https://l4disk.github.io/refresh_room/detail/51/)|완료|
