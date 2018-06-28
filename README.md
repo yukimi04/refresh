@@ -54,3 +54,4 @@
 |49|[気分はいつでもレイジー・レイジー](https://l4disk.github.io/refresh_room/detail/49/)|미번역|
 |50|[록이란 뭘까?](https://l4disk.github.io/refresh_room/detail/50/)|완료|
 |51|[숙녀의 계절,이네요♪](https://l4disk.github.io/refresh_room/detail/51/)|완료|
+|52|[可愛いあの子を探して☆](https://l4disk.github.io/refresh_room/detail/52/)|미번역|
