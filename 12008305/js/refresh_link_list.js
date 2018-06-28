@@ -207,6 +207,10 @@ refApp.controller('refCtrl', ['$scope', '$filter', function($scope, $filter) {
 		id: 51,
 		name: ["乙女の季節、ですね♪"],
 		idol: "佐藤心_長富蓮実_사토신_나가토미하스미"
+	}, {
+		id: 52,
+		name: [可愛いあの子を探して☆"],
+		idol: "太田優_佐城雪美_向井拓海_イブ・サンタクロース_渋谷凛_오오타유우_사죠유키미_무카이타쿠미_이브산타클로스_시부야린"
 	}*/];
 	$scope.q = '';
 
