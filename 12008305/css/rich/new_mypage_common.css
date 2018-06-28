@@ -20162,7 +20162,7 @@ a.intro_close_btn.petit,a.check_close_btn.petit{
 .pager_area{
     overflow:hidden;
     position:relative;
-    height:70px
+    height:80px
 }
 .pager_area.mini_height{
     height:32px !important
