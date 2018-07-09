@@ -36,7 +36,7 @@
 |31|[헬시 서바이벌의 1일 외출 플랜♪](https://l4disk.github.io/refresh_room/detail/31/)|완료|
 |32|[봄의 추억에 헬로&굿바이](https://l4disk.github.io/refresh_room/detail/32/)|완료|
 |33|[해피 에이프릴 풀☆](https://l4disk.github.io/refresh_room/detail/33/)|완료|
-|34|[桜前線、北上中っ♪](https://l4disk.github.io/refresh_room/detail/34/)|미번역|
+|34|[벚꽃전선, 북상 중♪](https://l4disk.github.io/refresh_room/detail/34/)|완료|
 |35|[ようこそ♪ハートウォーマーの占い館](https://l4disk.github.io/refresh_room/detail/35/)|미번역|
 |36|[인디고 벨의 특훈! 빨리 말하기!](https://l4disk.github.io/refresh_room/detail/36/)|완료|
 |37|[이름하야, 빵 카니발](https://l4disk.github.io/refresh_room/detail/37/)|완료|
