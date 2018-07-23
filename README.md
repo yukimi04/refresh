@@ -51,7 +51,10 @@
 |46|[어두운 하늘, 근심의 계절](https://l4disk.github.io/refresh_room/detail/46/)|완료|
 |47|[876프로가 사랑을 담아서](https://l4disk.github.io/refresh_room/detail/47/)|완료|
 |48|[저기, 당신...♪ 누구로 할래?](https://l4disk.github.io/refresh_room/detail/48/)|완료|
-|49|[気分はいつでもレイジー・レイジー](https://l4disk.github.io/refresh_room/detail/49/)|미번역|
+|49|[기분은 언제나 레이지 레이지](https://l4disk.github.io/refresh_room/detail/49/)|완료|
 |50|[록이란 뭘까?](https://l4disk.github.io/refresh_room/detail/50/)|완료|
 |51|[숙녀의 계절,이네요♪](https://l4disk.github.io/refresh_room/detail/51/)|완료|
 |52|[可愛いあの子を探して☆](https://l4disk.github.io/refresh_room/detail/52/)|미번역|
+|53|[ふたりの欲張りプラン](https://l4disk.github.io/refresh_room/detail/53/)|미번역|
+|54|[マキノ・レポート 幸運パワーの正体とは？](https://l4disk.github.io/refresh_room/detail/54/)|미번역|
+|55|[猫チャンガールはお魚ガールの夢を見ない？](https://l4disk.github.io/refresh_room/detail/55/)|미번역|
