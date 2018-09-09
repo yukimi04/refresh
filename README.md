@@ -57,4 +57,4 @@
 |52|[可愛いあの子を探して☆](https://l4disk.github.io/refresh_room/detail/52/)|미번역|
 |53|[ふたりの欲張りプラン](https://l4disk.github.io/refresh_room/detail/53/)|미번역|
 |54|[マキノ・レポート 幸運パワーの正体とは？](https://l4disk.github.io/refresh_room/detail/54/)|미번역|
-|55|[猫チャンガールはお魚ガールの夢を見ない？](https://l4disk.github.io/refresh_room/detail/55/)|미번역|
+|55|[야옹이 소녀는 물고기 소녀의 꿈을 꾸지 않는다?](https://l4disk.github.io/refresh_room/detail/55/)|완료|
