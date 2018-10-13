@@ -55,6 +55,6 @@
 |50|[록이란 뭘까?](https://l4disk.github.io/refresh_room/detail/50/)|완료|
 |51|[숙녀의 계절,이네요♪](https://l4disk.github.io/refresh_room/detail/51/)|완료|
 |52|[귀여운 그녀석을 찾아서☆](https://l4disk.github.io/refresh_room/detail/52/)|완료|
-|53|[ふたりの欲張りプラン](https://l4disk.github.io/refresh_room/detail/53/)|미번역|
+|53|[두 사람의 욕심쟁이 플랜](https://l4disk.github.io/refresh_room/detail/53/)|완료|
 |54|[マキノ・レポート 幸運パワーの正体とは？](https://l4disk.github.io/refresh_room/detail/54/)|미번역|
 |55|[야옹이 소녀는 물고기 소녀의 꿈을 꾸지 않는다?](https://l4disk.github.io/refresh_room/detail/55/)|완료|
