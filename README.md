@@ -59,3 +59,4 @@
 |54|[マキノ・レポート 幸運パワーの正体とは？](https://l4disk.github.io/refresh_room/detail/54/)|미번역|
 |55|[야옹이 소녀는 물고기 소녀의 꿈을 꾸지 않는다?](https://l4disk.github.io/refresh_room/detail/55/)|완료|
 |68|[귀엽게, 귀여움회의♪](https://l4disk.github.io/refresh_room/detail/68/)|완료|
+|76|[가련한 천사들의 대화 ~리틀 엔젤스~](https://l4disk.github.io/refresh_room/detail/76/)|완료|
