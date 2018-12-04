@@ -1,1 +1,1234 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobage: footer-color" content="none">
+    <link rel="stylesheet" href='../../12008305/css/game/pex.css' media="all">
+    <script src='../../12008305/js/jquery-2.2.2.min.js'></script>
+    <script src='../../12008305/js/ilibrary.js'></script>
+    <script src='../../12008305/js/pex-petit-1.2.0.js'></script>
+    <script src='../../12008305/js/pex_common.js'></script>
+    <script src='../../12008305/js/min/petit_manager.min.js'></script>
+    <script src='../../12008305/js/min/refresh_room.min.js'></script>
+    <title>아이돌마스터 신데렐라걸즈 </title>
+    <link rel="stylesheet" type="text/css" href="../../12008305/css/rich/refresh_room.css" media="all">
+    <script type='text/javascript'>
+        var se_flg = 0,
+            bgm_flg = 0,
+            chrome_app_flg = 0,
+            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+    </script>
+    <script type='text/javascript' src='../../12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="../../css/base.css?20171116" />
+</head>
+
+<body>
+    <article>
+        <section id="pageContainer" class="m-Btm0">
+            <div id="bg_space" class="large-size"></div>
+            <div id="jsEyeCatch">
+                <div style="margin-top:120px"><img src='../../12008305/image_sp/petit_cg/ui/sprite/loading/working_1.gif' width="195" height="139"></div>
+                <div style="margin-top:-80px"><img src='../../12008305/image_sp/petit_cg/ui/sprite/loading/loading.gif' width="102" height="102"></div>
+            </div>
+            <div class="effect-container large-size">
+                <div id="animation-container"></div>
+                <div id="dialogue" class="animation"></div>
+                <div class="story" style="text-align:left;">
+                    <div class="comment-container">
+                        <span></span><br>
+                        <span></span><br>
+                        <span></span><br>
+                    </div>
+                    <a href="#" class="story_btn" style="display:none;"></a>
+                </div>
+            </div>
+            <div id="name-plate" rel="3" class="large-size">
+                <div class="plate-area" rel="1">
+                    <img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/50.png'>
+                </div>
+                <div class="plate-area" rel="2">
+                    <img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/12.png'>
+                </div>
+                <div class="plate-area" rel="3">
+                    <img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/98.png'>
+                </div>
+            </div>
+            <a id="next" class="next large-size" href="#"></a>
+        </section>
+    </article>
+    <script type="text/javascript">
+        (function() {
+            var refreshRoom = window.refreshRoom || {};
+            var ua = navigator.userAgent;
+            var in_chome = false;
+            try {
+                in_chrome = (chrome in window);
+            } catch (e) {
+                in_chrome = false;
+            }
+            refreshRoom.is_pc = in_chrome || (window.chrome ? true : false) && (window.chrome.webstore) || ua.indexOf('ChromeApp') > -1 || ua.indexOf('AAWebview') > -1;
+            refreshRoom.old_os = ua.match(/(OS [3-7]|Android [2-4])/);
+            refreshRoom.is_multiply = false;
+            refreshRoom.returnUrl = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Frefresh_room%2Findex%2F0%3Fname%3D%26l_frm%3DRefresh_room_detail_1%26rnd%3D879369188';
+            refreshRoom.dialogueSwf = '../../petit_refresh_room_balloon_swf';
+            refreshRoom.data = {
+                "id": "76",
+                "refresh_room_id": "76",
+                "start_time": "2018\/12\/04 15:00:00",
+                "refresh_room_name": "\u53ef\u6190\u306a\u5929\u4f7f\u305f\u3061\u306e\u8a9e\u3089\u3044<BR>\uff5e\u30ea\u30c8\u30eb\u30a8\u30f3\u30b8\u30a7\u30eb\u30b9\uff5e",
+                "idol_set_id_1": "161",
+                "idol_accessory_set_id_1": "7",
+                "idol_set_id_2": "182",
+                "idol_accessory_set_id_2": "7",
+                "idol_set_id_3": "136",
+                "idol_accessory_set_id_3": "7",
+                "idol_set_id_4": "",
+                "idol_accessory_set_id_4": "",
+                "idol_set_id_5": "",
+                "idol_accessory_set_id_5": "",
+                "idol_name_1": "\u8f3f\u6c34\u5e78\u5b50",
+                "idol_kana_1": "\u3053\u3057\u307f\u305a\u3055\u3061\u3053",
+                "name_plate_id_1": "50",
+                "idol_name_2": "\u7dd2\u65b9\u667a\u7d75\u91cc",
+                "idol_kana_2": "\u304a\u304c\u305f\u3061\u3048\u308a",
+                "name_plate_id_2": "12",
+                "idol_name_3": "\u795e\u5d0e\u862d\u5b50",
+                "idol_kana_3": "\u304b\u3093\u3056\u304d\u3089\u3093\u3053",
+                "name_plate_id_3": "98",
+                "idol_name_4": "",
+                "idol_kana_4": "",
+                "idol_name_5": "",
+                "idol_kana_5": "",
+                "idol_avatar": {
+                    "1": {
+                        "attribute": "1",
+                        "body_type": "2",
+                        "breast_size": "3",
+                        "short_name": "\u5e78\u5b50",
+                        "image_url_list": {
+                            "expression_1028": "../../12008305/js/petit_cg/expression/1028.js",
+                            "hair_10028": "../../12008305/js/petit_cg/hair/10028.js",
+                            "costume_1_20028": "../../12008305/js/petit_cg/costume/1/20028.js"
+                        },
+                        "sub_type_list": {
+                            "head": null,
+                            "hand": null,
+                            "leg": null
+                        },
+                        "take_sub_type": {
+                            "head": 0,
+                            "hand": 0,
+                            "leg": 0
+                        },
+                        "petit_csv_info_list": {
+                            "costume_2_20028": {
+                                "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F20028",
+                                "accessory_name": "\u5236\u670dA\u30fb\u5e78\u5b50",
+                                "explanation": "\u5e78\u5b50\u306e\u5b66\u6821\u306e\u5236\u670d\u3067\u3059\u3002<br>\u30a8\u30b9\u30ab\u30ec\u30fc\u30bf\u30fc\u5f0f\u306e\u79c1\u7acb\u306e\u3082\u306e\u3089\u3057\u3044\u3002",
+                                "type_id": "2"
+                            }
+                        },
+                        "petit_csv_sub_type_info_list": []
+                    },
+                    "2": {
+                        "attribute": "1",
+                        "body_type": "1",
+                        "breast_size": "2",
+                        "short_name": "\u667a\u7d75\u91cc",
+                        "image_url_list": {
+                            "expression_1051": "../../12008305/js/petit_cg/expression/1051.js",
+                            "hair_10051": "../../12008305/js/petit_cg/hair/10051.js",
+                            "costume_1_20051": "../../12008305/js/petit_cg/costume/1/20051.js"
+                        },
+                        "sub_type_list": {
+                            "head": null,
+                            "hand": null,
+                            "leg": null
+                        },
+                        "take_sub_type": {
+                            "head": 0,
+                            "hand": 0,
+                            "leg": 0
+                        },
+                        "petit_csv_info_list": {
+                            "costume_1_20051": {
+                                "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F20051",
+                                "accessory_name": "\u3055\u304f\u3089\u3093\u307c\u30ef\u30f3\u30d4\u30fc\u30b9\u30fb\u667a\u7d75\u91cc",
+                                "explanation": "\u3055\u304f\u3089\u3093\u307c\u67c4\u304c\u304b\u308f\u3044\u3044\u667a\u7d75\u91cc\u306e\u30ef\u30f3\u30d4\u30fc\u30b9\u3067\u3059\u3002<br>\u6de1\u3044\u30b0\u30ea\u30fc\u30f3\u306f\u30af\u30ed\u30fc\u30d0\u30fc\u306e\u6c17\u6301\u3061\u2026\u266a",
+                                "type_id": "2"
+                            }
+                        },
+                        "petit_csv_sub_type_info_list": []
+                    },
+                    "3": {
+                        "attribute": "2",
+                        "body_type": "1",
+                        "breast_size": "2",
+                        "short_name": "\u862d\u5b50",
+                        "image_url_list": {
+                            "expression_1010": "../../12008305/js/petit_cg/expression/1010.js",
+                            "hair_10010": "../../12008305/js/petit_cg/hair/10010.js",
+                            "costume_1_20010": "../../12008305/js/petit_cg/costume/1/20010.js"
+                        },
+                        "sub_type_list": {
+                            "head": null,
+                            "hand": null,
+                            "leg": null
+                        },
+                        "take_sub_type": {
+                            "head": 0,
+                            "hand": 0,
+                            "leg": 0
+                        },
+                        "petit_csv_info_list": {
+                            "costume_1_20010": {
+                                "image_path": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fitem%2Fl%2Fpetit_cg%2F20010",
+                                "accessory_name": "\u30b4\u30b9\u30ed\u30ea\u30ef\u30f3\u30d4\u30fb\u862d\u5b50",
+                                "explanation": "\u862d\u5b50\u306e\u30b4\u30b9\u30ed\u30ea\u30ef\u30f3\u30d4\u30fc\u30b9\u3067\u3059\u3002<br>\u8ab0\u306b\u3082\u771f\u4f3c\u3067\u304d\u306a\u3044\u6f06\u9ed2\u306e\u30d5\u30a1\u30c3\u30b7\u30e7\u30f3\u3002",
+                                "type_id": "2"
+                            }
+                        },
+                        "petit_csv_sub_type_info_list": []
+                    }
+                }
+            };
+            var default_swf = '../../petit_refresh_room_character_swf';
+            for (var i in refreshRoom.data.idol_avatar) {
+                refreshRoom.data.idol_avatar[i].swf = default_swf;
+            }
+            refreshRoom.detail = [{
+                "id": "1",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "nod",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "1",
+                "message": "후우... 좋은 방송이었네요♪\n끝까지 집중해서 봐버렸어요",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "2",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "light_joy",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "아무생각없이 틀었는데\n다들 푹빠져서 봐버렸네...♪",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "3",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "",
+                "motion3": "smile_left",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "그렇지만 공허한 시간을\n채우기에는\n가치가 있는것이었어...",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "",
+                "message_arrow_3": "1",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "4",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "shy",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "자연 다큐멘터리,\n유빙의 천사 클리오네...!\n꽤 귀여운 생물이었네요",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "5",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "nod_smile",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "날개를 파닥파닥거리며 헤엄치는 것이\n바다 속을 날아다니는 것 같아서...",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "6",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "",
+                "motion3": "joy",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "음. 빙해에 꽂히는 빛 속에서,\n우아하게 춤추는 환상...\n유빙의 천사라는 이름이 아깝지않아!",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "",
+                "message_arrow_3": "1",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "7",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "",
+                "motion3": "trouble",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "...그래도 클리오네가 사냥감을 먹는\n씬은 깜짝 놀랐어",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "",
+                "message_arrow_3": "1",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "8",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "shy",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "그, 그렇네\n나도, 클리오네가 육식이란걸\n몰랐었어...",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "9",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "",
+                "motion3": "nod",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "가련한 모습에 숨겨진\n사나운 본성...\n이것도 야생의 법칙인가",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "",
+                "message_arrow_3": "1",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "10",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "nod_smile",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "그래도 제게 있어선\n그 모습에 라이벌 의식이 들어\n자극받았네요...",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "11",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "panic",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "앗? 사치코쨩도 육식이야?\n사냥감을 덥석 물어버려...?",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "12",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "",
+                "motion3": "shock",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "사람이 아닌 영역에 들어가려는건가!?\n사,사치코쨩, 가지마...!",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "",
+                "message_arrow_3": "1",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "13",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "angry",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "그게 아니에요!\n그게 유빙의 천사라구요, 천사!",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "14",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "smile_right",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "정통파 천사 아이돌인 저로서는\n그냥 지나칠 수 없는 존재에요!",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "15",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "notice",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "그, 그런가.\n사치코쨩도 천사 의상이 어울리는\n아이돌이었지",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "16",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "",
+                "motion3": "smile_left",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "무대에서 빛을 발하는 날개...\n신자의 기도를 받으며 날아가는 모습은\n그야말로 천사...",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "",
+                "message_arrow_3": "1",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "17",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "smug",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "흐흐~응, 그렇다구요♪\n그러니까 질 수 없는걸요",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "18",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "joy",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "여기선 역시, 제 쪽이\n위라는걸 증명해야겠죠!\n클리오네보다 귀여운 천사라고!",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "19",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "question_left",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "증명하다니... 어떤 식으로?",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "20",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "nod",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "그렇네요\n이런저런 이미지가 있는데...",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "21",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "shout",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "『유빙의 천사』라고 검색하면\n클리오네보다 먼저 코시미즈 사치코가\n나오는 것이 이상적이겠네요!",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "22",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "shock",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "그렇게까지!? 사키초쨩이\n세계를 바꾸고 있어...!",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "23",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "",
+                "motion3": "shy",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "이 무슨 장언이지!\n...그래도 사치코쨩이라면\n될 것 같은 기분도 들어...",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "",
+                "message_arrow_3": "1",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "24",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "nod",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "확실히... 사치코쨩\n항상 자신감이 넘치니까...",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "25",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "light_joy",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "일에서도 함께 한다면\n믿음직스럽구나...하는 생각을 해요",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "26",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "nod_smile",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "두분다...\n그렇게 저의 귀여움을\n찬양하시다니...",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "27",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "deny",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "아니, 다른 사람 일이 아니라니까요?\n치에리씨도 란코씨도\n천사 아이돌이잖아요!",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "28",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "notice",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "앗? 그, 그건...",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "29",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "",
+                "motion3": "smug",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "...아니, 나는 깨끗한 천사가 아니야\n이 몸은 칠흑의 불꽃에 태워지고\n혼은 어둠에 삼켜진... 타천사일지어니!",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "",
+                "message_arrow_3": "1",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "30",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "light_joy",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "자, 란코씨도 흐름에 탔으니,\n치에리씨도 힘을 합쳐서\n타도, 클리오네를 목표로 해보죠!",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "31",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "shy",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "확실히 나도, 천사 의상은\n전에 입었었지만... 그렇게\n천사라는 이미지가 있는걸까?",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "32",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "",
+                "motion3": "smile_left",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "...나의 벗이 말했었지.\n바다를 넘어 아득히 먼 타향에서도\n그 모습을 보고 누구나 기도를 올렸다고",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "",
+                "message_arrow_3": "1",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "33",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "smile_right",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "아... 그건, 이탈리아에서 했던 스케쥴?",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "34",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "",
+                "motion3": "nod_smile",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "그러니까...치에리쨩도\n정말로 천사같이 귀여우니\n자신을 가졌으면 좋겠다고 생각하는데",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "",
+                "message_arrow_3": "1",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "35",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "light_joy",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "란코쨩...\n고맙습니다, 에헷",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "36",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "smile_right",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "그 자세에요, 치에리씨\n3명이 모이면 천사의 귀여움도 3배...\n아니, 3억배에요♪",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "37",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "smug",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "힘을 모으면, 클리오네라도\n무조건 이길 수 있어요!",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "38",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "",
+                "motion3": "shout",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "어둠과 빛이 모일떄야말로,\n만들어지는 아름다움이 있어\n그렇다면 나의 힘도, 야망을 위해서!",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "",
+                "message_arrow_3": "1",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "39",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "nod_smile",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "그거에요!\n가봅시다 란코씨, 치에리씨!",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "40",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "smile_left",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "으,응.\n...어, 간다니 어디로?",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "41",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "nod",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "프로듀서씨가 있는 곳이죠.\n저희들의 천사 어필을 위해서\n스케쥴 플랜을 세울게요!",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "42",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "light_joy",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "유능한 프로듀서씨라면\n분명 좋은 아이디어를\n내줄테니까요♪",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "43",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "",
+                "motion3": "smile_left",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "후훗... 나의 벗의 마력은 무한.\n그 손으로 만들어낸 거대한 바람이\n세계에 변혁을 불러올테니!",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "",
+                "message_arrow_3": "1",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "44",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "",
+                "motion2": "trouble",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "정말, 두 사람 다...\n그래도, 일에 열심인건\n좋은 일인걸까나...?",
+                "message_window_type": "",
+                "message_arrow_1": "",
+                "message_arrow_2": "1",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }, {
+                "id": "45",
+                "refresh_room_id": "76",
+                "idol_disp_1": "",
+                "idol_disp_2": "",
+                "idol_disp_3": "",
+                "idol_disp_4": "",
+                "idol_disp_5": "",
+                "motion1": "smug",
+                "motion2": "",
+                "motion3": "",
+                "motion4": "",
+                "motion5": "",
+                "bg_image": "",
+                "message": "전세계가 넋을 놓고 보는 귀여움,\n있는대로 어필해보죠!\n흐흐~응♪",
+                "message_window_type": "",
+                "message_arrow_1": "1",
+                "message_arrow_2": "",
+                "message_arrow_3": "",
+                "message_arrow_4": "",
+                "message_arrow_5": ""
+            }];
+            petitManager.loaded_action = function() {
+                if (refreshRoom.is_multiply) $('.animation').css({
+                    zoom: "50%"
+                });
+                var margin = window.innerHeight - parseInt($('#bg_space > img').css('height'));
+                if (margin > 0) $('#pageContainer').css({
+                    "margin-top": margin * 0.5
+                });
+                var $effect_container = $('.effect-container');
+                var $dialogue = $('#dialogue');
+                var dialogue_top = parseInt($dialogue.css('top'));
+                var dialogue_ratio = refreshRoom.dialogue.scaleSizeCheck() / 320;
+                $dialogue.css('top', dialogue_top * dialogue_ratio);
+                if (!$effect_container.hasClass('large-size')) {
+                    $dialogue.css('top', dialogue_top * dialogue_ratio);
+                    var $animation = $('.animation:not(#dialogue)');
+                    var anime_top = parseInt($animation.css('top'));
+                    $animation.css('top', anime_top * dialogue_ratio);
+                }
+                $('#jsEyeCatch').hide();
+                refreshRoom.dialogue.startSwf();
+            };
+            petitManager.setWidth(refreshRoom.dialogue.scaleSizeCheck(refreshRoom.is_pc));
+            refreshRoom.bg_list = {
+                "1": "../../12008305/image_sp/ui/refresh_room/bg/bg1.jpg",
+                "": "../../12008305/image_sp/ui/refresh_room/bg/bg.jpg"
+            };
+            var image = new Image;
+            var multiply = refreshRoom.is_pc || window.devicePixelRatio >= 1.5 && !refreshRoom.old_os ? 0.5 : 1;
+            var size = refreshRoom.dialogue.scaleSizeCheck() * multiply;
+            var ratio = size / 320;
+            image.width = size;
+            var effect_container = $('.effect-container');
+            effect_container.css({
+                width: size,
+                height: size,
+                bottom: parseInt(effect_container.css('bottom')) * ratio
+            });
+            image.onload = function() {
+                $('#bg_space').append(image);
+                var height = $(this).css('height');
+                $(this).parent().css('height', height);
+                $(image).css('top', parseInt($(image).css('top')) * ratio);
+                $('#name-plate').css({
+                    "-webkit-transform": "scale(" + ratio + ")"
+                })
+                petitManager.setCharacters(refreshRoom.data.idol_avatar);
+                refreshRoom.dialogue.setMotion();
+            }
+            image.src = refreshRoom.bg_list[refreshRoom.detail[0].bg_image];
+            //console.log(refreshRoom);
+        })();
+
+        function playText() {
+            if (window.refreshRoom == void 0) return;
+            refreshRoom.dialogue.comment_deferred.resolve();
+        }
+
+        function motion_callback(index, motion) {
+            var motion_end = refreshRoom.dialogue.walking == 0;
+            if (motion.indexOf("in_walk") > -1) {
+                if (refreshRoom.dialogue.walking) {
+                    if (--refreshRoom.dialogue.walking > 0) {
+                        motion_end = false;
+                    } else {
+                        motion_end = true;
+                    }
+                }
+            }
+            var filtered_plate = $('.plate-area[rel=' + index + ']');
+            if (filtered_plate.css('display') == 'none') filtered_plate.show();
+            if (motion_end) {
+                if (refreshRoom.dialogue.motion_wait) {
+                    $('#next').trigger('click');
+                }
+                refreshRoom.dialogue.motion_wait = false;
+            }
+        }
+    </script>
+    <style>
+    </style>
+</body>
+
+</html>
